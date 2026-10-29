@@ -1,0 +1,172 @@
+{
+ "putz_hell": {
+  "polyhaven": "white_plaster_02",
+  "url": "https://polyhaven.com/a/white_plaster_02",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 514,
+   "nor": 637,
+   "rough": 288
+  },
+  "meter": [
+   1.0,
+   1.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "sandstein": {
+  "polyhaven": "sandstone_blocks_08",
+  "url": "https://polyhaven.com/a/sandstone_blocks_08",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 237,
+   "nor": 163,
+   "rough": 157
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "beton_glatt": {
+  "polyhaven": "plaster_grey_04",
+  "url": "https://polyhaven.com/a/plaster_grey_04",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 446,
+   "nor": 960,
+   "rough": 361
+  },
+  "meter": [
+   1.5,
+   1.5
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "fassade_platten": {
+  "polyhaven": "concrete_tile_facade",
+  "url": "https://polyhaven.com/a/concrete_tile_facade",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 610,
+   "nor": 914,
+   "rough": 328
+  },
+  "meter": [
+   2.09,
+   2.09
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "ziegel": {
+  "polyhaven": "red_brick_03",
+  "url": "https://polyhaven.com/a/red_brick_03",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 678,
+   "nor": 933,
+   "rough": 279
+  },
+  "meter": [
+   1.0,
+   1.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "asphalt": {
+  "polyhaven": "asphalt_02",
+  "url": "https://polyhaven.com/a/asphalt_02",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 714,
+   "nor": 1211,
+   "rough": 531
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "gehweg_platten": {
+  "polyhaven": "square_concrete_pavers",
+  "url": "https://polyhaven.com/a/square_concrete_pavers",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 769,
+   "nor": 919,
+   "rough": 624
+  },
+  "meter": [
+   1.8,
+   1.8
+  ],
+  "autoren": [
+   "Amal Kumar"
+  ]
+ },
+ "granit": {
+  "polyhaven": "granite_tile",
+  "url": "https://polyhaven.com/a/granite_tile",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 660,
+   "nor": 578,
+   "rough": 658
+  },
+  "meter": [
+   2.3,
+   2.3
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "dach_kies": {
+  "polyhaven": "gravel_embedded_concrete",
+  "url": "https://polyhaven.com/a/gravel_embedded_concrete",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 1110,
+   "nor": 1436,
+   "rough": 535
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "kopfstein": {
+  "polyhaven": "cobblestone_floor_08",
+  "url": "https://polyhaven.com/a/cobblestone_floor_08",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 571,
+   "nor": 978,
+   "rough": 399
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ }
+}

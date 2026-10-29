@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#efe7da">
+<link rel="icon" href="data:,">
+<title>EARTH 3D GAME · Projekt Dashboard</title>
+<link rel="stylesheet" href="style.css?v=202610292000">
+<script type="importmap">
+{ "imports": {
+  "three": "../node_modules/three/build/three.module.js",
+  "three/addons/": "../node_modules/three/examples/jsm/",
+  "@dgreenheck/ez-tree": "../node_modules/@dgreenheck/ez-tree/build/ez-tree.es.js"
+} }
+</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<header class="kopf">
+  <div class="marke"><b>EARTH 3D GAME</b><span>Projekt Dashboard · Phase 0 Fundament</span></div>
+  <div class="leistung" id="leistung">…</div>
+</header>
+<nav class="nav">
+  <div class="bereiche" id="bereiche"></div>
+  <div class="eintraege" id="eintraege"></div>
+</nav>
+<aside class="info" id="info"></aside>
+<div class="erdsuche" id="erdsuche"><input id="erdfeld" type="search" placeholder="Ort auf der Erde suchen (171.654 Orte)" autocomplete="off" aria-label="Ort suchen"><div class="treffer" id="erdtreffer"></div><div class="erdstatus" id="erdstatus"></div></div>
+<footer class="leiste">
+  <label class="zeit"><span id="uhr">15:00</span><input id="tageszeit" type="range" min="5" max="23" step="0.05" value="15" aria-label="Tageszeit"></label>
+  <div class="schalter">
+    <button data-s="schatten" class="an" title="Schatten">Schatten</button>
+    <button data-s="ao" title="Umgebungsverdeckung (Kontaktschatten)">Verdeckung</button>
+    <button data-s="bewegung" class="an" title="Menschen, Autos und Ampeln bewegen sich">Bewegung</button>
+    <button data-s="drehen" title="Kamera dreht langsam">Drehen</button>
+    <button data-s="gitter" title="Drahtgitter">Gitter</button>
+    <button data-s="uhr" title="Uhr läuft: 1 Stunde je Minute">Uhr läuft</button>
+    <button id="wetter" title="Wetter wechseln: Klar, Wolkig, Regen, Nebel">Klar</button>
+  </div>
+    <button id="jetknopf" class="jetknopf" title="Düsenjet über der ganzen Erde fliegen">Düsenjet</button>
+    <div id="spielen" class="spielen" title="Spielmodi: frei, zu Fuß, Fahren">
+      <button data-m="frei" class="an">Frei</button><button data-m="fuss">Zu Fuß</button><button data-m="fahren">Fahren</button>
+    </div>
+</footer>
+<div class="laden" id="laden"><div><b>EARTH 3D GAME</b><span id="ladetext">Baukasten wird geladen</span></div></div>
+<div class="quellen">Texturen: Poly Haven (CC0) · Bäume: EZ-Tree (MIT) · Figuren: Higgsfield · Satellitenbild: EOxCloudless 2016 by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016), CC BY 4.0 · Nachtlichter: NASA Black Marble 2016 über GIBS · Erde fern: NASA Blue Marble (gemeinfrei), AWS Terrain Tiles · Orte: GeoNames (CC BY 4.0) · Routen: Project OSRM und FOSSGIS (OSRM) · © OpenFreeMap © OpenMapTiles © OpenStreetMap contributors · three.js r186</div>
+<div id="auswahl" class="auswahl"></div>
+  <div id="hilfe" class="hilfe"></div>
+  <div id="hud" class="hud"></div>
+  <div id="stick" class="stick"><div class="knauf"></div></div>
+  <div id="knoepfe" class="knoepfe"><button data-t="schnell">Rennen</button><button data-t="bremse">Bremse</button><button data-t="ende">Beenden</button></div>
+  <script type="module" src="app.js?v=202610292000"></script>
+</body>
+</html>

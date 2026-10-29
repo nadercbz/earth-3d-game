@@ -1,0 +1,21 @@
+{
+ "tag.jpg": {
+  "quelle": "NASA Visible Earth, Blue Marble Next Generation mit Topografie und Bathymetrie, Juli 2004 (world.topo.bathy.200407.3x5400x2700.jpg; Dezember war im Norden zu dunkel)",
+  "lizenz": "gemeinfrei (NASA)",
+  "pixel": "4096 x 2048"
+ },
+ "nacht.jpg": {
+  "quelle": "NASA Visible Earth, Earth's City Lights (earth_lights_lrg.jpg, DMSP)",
+  "lizenz": "gemeinfrei (NASA)",
+  "pixel": "2048 x 1024"
+ },
+ "detail.png": {
+  "quelle": "Poly Haven, Luftbild Texturen von Rob Tuytel: aerial_grass_rock (Kanal R), rocky_terrain_02 (G), dirt_aerial_02 (B), aerial_beach_01 (A), je 1k, als Graustufen Hochpass gepackt (29.10.2026)",
+  "lizenz": "CC0 (polyhaven.com/license)",
+  "pixel": "512 x 512, RGBA"
+ },
+ "sentinel2": {
+  "quelle": "EOxCloudless 2016 by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016), tiles.maps.eox.at s2cloudless_3857",
+  "lizenz": "CC BY 4.0, Hinweis in der Fußzeile"
+ }
+}

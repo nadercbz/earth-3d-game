@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>EARTH 3D GAME · Erde</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  #erde-hud { position: fixed; top: 14px; right: 14px; background: rgba(250, 248, 243, 0.86); color: #1d1c1a; border-radius: 12px; padding: 10px 14px; font: 13px/1.5 system-ui, sans-serif; backdrop-filter: blur(10px); z-index: 5; min-width: 220px; }
+  #erde-hud b { font-weight: 600; }
+  #erde-suche { position: fixed; top: 14px; left: 14px; z-index: 5; width: min(360px, 70vw); }
+  #erde-suche input { width: 100%; padding: 10px 14px; border-radius: 12px; border: 0; background: rgba(250, 248, 243, 0.9); font: 15px system-ui, sans-serif; box-sizing: border-box; }
+  #erde-suche .liste { background: rgba(250, 248, 243, 0.94); border-radius: 12px; margin-top: 6px; max-height: 50vh; overflow: auto; display: none; }
+  #erde-suche .liste button { display: block; width: 100%; text-align: left; border: 0; background: none; padding: 8px 14px; font: 14px system-ui, sans-serif; cursor: pointer; }
+  #erde-suche .liste button:hover { background: rgba(0, 0, 0, 0.06); }
+  #erde-suche .liste small { color: #777; margin-left: 6px; }
+  #erde-leiste { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: rgba(250, 248, 243, 0.86); border-radius: 14px; padding: 8px 12px; display: flex; gap: 8px; align-items: center; z-index: 5; backdrop-filter: blur(10px); font: 13px system-ui, sans-serif; }
+  #erde-leiste button { border: 0; border-radius: 10px; padding: 8px 12px; background: #e9e5dc; font: 13px system-ui, sans-serif; cursor: pointer; }
+  #erde-leiste button.an { background: #c0392b; color: #fff; }
+  #erde-fuss { position: fixed; bottom: 2px; left: 10px; color: rgba(255, 255, 255, 0.7); font: 11px system-ui, sans-serif; z-index: 5; }
+  #c { position: fixed; inset: 0; display: block; }
+  body { background: #000; margin: 0; }
+  #laden { position: fixed; inset: 0; display: grid; place-items: center; background: #000; color: #ddd; font: 16px system-ui, sans-serif; z-index: 9; }
+  #laden.weg { display: none; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="laden"><div id="ladetext">Erde wird geladen</div></div>
+<div id="erde-suche"><input id="suche" type="search" placeholder="Ort suchen (171.654 Orte)" autocomplete="off"><div class="liste" id="treffer"></div></div>
+<div id="erde-hud"></div>
+<div id="erde-leiste">
+  <button data-ort="berlin">Berlin</button><button data-ort="marrakesch">Marrakesch</button><button data-ort="tokio">Tokio</button><button data-ort="newyork">New York</button><button data-ort="rio">Rio</button>
+  <button id="landen">Landen</button><button id="all">Ins All</button>
+</div>
+<div id="erde-fuss">Erde: NASA Blue Marble und City Lights (gemeinfrei) · Gelände: AWS Terrain Tiles (Mapzen Terrarium) · Orte: GeoNames (CC BY 4.0), Natural Earth · © OpenFreeMap © OpenMapTiles © OpenStreetMap contributors · three.js r186</div>
+<script type="importmap">{ "imports": { "three": "../node_modules/three/build/three.module.js", "three/addons/": "../node_modules/three/examples/jsm/", "@dgreenheck/ez-tree": "../node_modules/@dgreenheck/ez-tree/build/ez-tree.es.js", "pbf": "../node_modules/pbf/index.js", "@mapbox/vector-tile": "../node_modules/@mapbox/vector-tile/index.js" } }</script>
+<script type="module" src="erde.js"></script>
+</body>
+</html>
