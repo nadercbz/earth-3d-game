@@ -1,0 +1,37 @@
+# Echtzeit fuer EARTH 3D GAME (Wunsch Nr. 51): holt die Lagen der Flugzeuge der Welt und legt sie auf den Zweig "live". Eingestellt alle 10 Minuten, GitHub startet geplante Laeufe real nur alle paar Stunden (gemessen 07.11.2026).
+# Der Browser darf die Dienste nicht direkt fragen (CORS), raw.githubusercontent.com schon. Kostenlos, ohne Konto, ohne Schluessel.
+name: Live Daten
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: live
+  cancel-in-progress: false
+jobs:
+  holen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: .github/live
+          sparse-checkout-cone-mode: false
+      - name: Lagen holen
+        run: python3 .github/live/holen.py aus
+      - name: Auf den Zweig live legen (ohne Verlauf, das Repo waechst nicht)
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          cd aus
+          git init -q -b live
+          git config user.name "Earth Live"
+          git config user.email "noreply@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Lagen $(date -u +%H:%M)"
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -q -f origin live

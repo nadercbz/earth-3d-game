@@ -1,0 +1,33 @@
+// Kleintiere um den Spieler (Wunsch Nr. 50, 06.11.2026, Nader: "Insekten sogar"): Bienen und Hummeln über Grün, Libellen am Wasser, Motten an den Laternen, Mücken in Wolken am Ufer. Schmetterlinge und Glühwürmchen kommen aus kit/waldleben.js.
+// Nur nah am Boden. Die Flugbahn rechnet der Vertex Shader, die Zellen wandern mit der Kamera mit (mod), darum kostet das fast nichts.
+import * as THREE from 'three';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+const BOX = 44, _v = new THREE.Vector3();
+function koerper() { const k = new THREE.BoxGeometry(0.2, 0.2, 0.9), f = new THREE.PlaneGeometry(1, 0.42); f.rotateX(-Math.PI / 2); const a = f.clone().translate(0.55, 0.12, -0.05), b = f.clone().translate(-0.55, 0.12, -0.05); const G = mergeGeometries([k.toNonIndexed(), a.toNonIndexed(), b.toNonIndexed()]); const n = G.attributes.position.count, F = new Float32Array(n); for (let i = 0; i < n; i++) F[i] = Math.abs(G.attributes.position.getX(i)) > 0.12 ? Math.abs(G.attributes.position.getX(i)) : 0; G.setAttribute('aFl', new THREE.BufferAttribute(F, 1)); return G; }
+function schwarm(n, { farbe, fluegel, gr, hoch, tempo, weite, schlag, R }) {
+  const G = koerper(), g2 = new THREE.InstancedBufferGeometry(); g2.index = null; for (const k in G.attributes) g2.setAttribute(k, G.attributes[k]); g2.instanceCount = n; const S = new Float32Array(n * 4); for (let i = 0; i < n * 4; i++) S[i] = R(); g2.setAttribute('aS', new THREE.InstancedBufferAttribute(S, 4)); g2.boundingSphere = new THREE.Sphere(new THREE.Vector3(), 1e7);
+  const U = { uZeit: { value: 0 }, uMitte: { value: new THREE.Vector3() } }, m = new THREE.MeshBasicMaterial({ color: farbe, side: THREE.DoubleSide, transparent: true, opacity: 0.92 }); const F2 = new THREE.Color(fluegel);
+  m.onBeforeCompile = sh => { Object.assign(sh.uniforms, U); sh.uniforms.uFluegel = { value: F2 }; sh.vertexShader = `attribute vec4 aS; attribute float aFl; uniform float uZeit; uniform vec3 uMitte; varying float vFl;\n` + sh.vertexShader.replace('#include <begin_vertex>', `#include <begin_vertex>
+    vFl = aFl; transformed *= ${gr.toFixed(4)}; transformed.y += aFl * ${gr.toFixed(4)} * sin(uZeit * ${schlag.toFixed(1)} + aS.x * 40.0) * 0.8;
+    float t0 = uZeit * ${tempo.toFixed(3)} * (0.7 + aS.y * 0.6) + aS.w * 6.283; vec2 bahn = vec2(sin(t0) + 0.5 * sin(t0 * 2.3 + 1.0), cos(t0 * 0.8) + 0.5 * sin(t0 * 1.9)) * ${weite.toFixed(2)};
+    vec2 zelle = vec2(aS.x, aS.y) * ${BOX.toFixed(1)}; vec2 ort = mod(zelle - uMitte.xz + ${(BOX / 2).toFixed(1)}, ${BOX.toFixed(1)}) - ${(BOX / 2).toFixed(1)} + uMitte.xz + bahn;
+    float dreh = t0 * 0.7; float cd = cos(dreh), sd = sin(dreh); transformed.xz = vec2(transformed.x * cd - transformed.z * sd, transformed.x * sd + transformed.z * cd);
+    transformed += vec3(ort.x, uMitte.y + 0.25 + aS.z * ${hoch.toFixed(2)} + sin(t0 * 1.7) * 0.12, ort.y);`); sh.fragmentShader = 'varying float vFl; uniform vec3 uFluegel;\n' + sh.fragmentShader.replace('#include <color_fragment>', '#include <color_fragment>\n  if (vFl > 0.01) { diffuseColor.rgb = uFluegel; diffuseColor.a = 0.55; }'); };
+  m.customProgramCacheKey = () => 'kleintier' + gr + schlag; const me = new THREE.Mesh(g2, m); me.frustumCulled = false; me.renderOrder = 3; me.userData.U = U; me.castShadow = false; return me;
+}
+export class Kleintiere {
+  constructor(ort, { mobil = false } = {}) {
+    this.ort = ort; this.gruppe = new THREE.Group(); this.gruppe.name = 'kleintiere'; this.t0 = performance.now(); let s = 991; const R = () => { s ^= s << 13; s >>>= 0; s ^= s >> 17; s ^= s << 5; s >>>= 0; return s / 4294967296; }; const D = ort.daten, f = mobil ? 0.45 : 1; this.gruen = (D.baeume?.length || 0) + (D.gruen?.length || 0) > 6; this.wasser = (D.wasser?.length || 0) > 0;
+    this.bienen = schwarm(Math.round(60 * f), { farbe: 0x2a2110, fluegel: 0xd8c86a, gr: 0.018, hoch: 1.3, tempo: 0.9, weite: 2.2, schlag: 90, R }); this.hummeln = schwarm(Math.round(16 * f), { farbe: 0x20180c, fluegel: 0xe2b43a, gr: 0.03, hoch: 0.9, tempo: 0.6, weite: 1.6, schlag: 70, R }); this.libellen = schwarm(Math.round(26 * f), { farbe: 0x14507a, fluegel: 0xa8c8d8, gr: 0.05, hoch: 1.6, tempo: 1.5, weite: 4, schlag: 60, R }); this.muecken = schwarm(Math.round(200 * f), { farbe: 0x141414, fluegel: 0x3a3a3a, gr: 0.006, hoch: 0.7, tempo: 2.4, weite: 0.7, schlag: 120, R });
+    for (const q of [this.bienen, this.hummeln, this.libellen, this.muecken]) this.gruppe.add(q);
+    // Motten an den Laternen: je Laterne ein paar, Bahn um den Lampenkopf
+    const n = mobil ? 40 : 110, G = new THREE.PlaneGeometry(0.05, 0.05); this.motten = new THREE.InstancedMesh(G, new THREE.MeshBasicMaterial({ color: 0xe8e0c0, side: THREE.DoubleSide, transparent: true, opacity: 0.85 }), n); this.motten.frustumCulled = false; this.motten.count = 0; this.gruppe.add(this.motten); this.lampen = D.laternen || []; this.mR = R; this.mD = Array.from({ length: n }, () => ({ a: R() * 6.28, r: 0.25 + R() * 0.6, y: 6.2 + R() * 1.2, v: 2 + R() * 3, ph: R() * 6.28 })); this.tL = 0; this.nahL = [];
+  }
+  update(cam, nacht, warm, dt = 0.016) {
+    const t = (performance.now() - this.t0) / 1000, o = this.ort.gruppe, lok = _v.copy(cam); o.worldToLocal(lok); const hH = this.ort.H(lok.x, lok.z), nah = lok.y - hH < 26, tag = nacht < 0.25 && warm && nah;
+    for (const [q, an] of [[this.bienen, tag && this.gruen], [this.hummeln, tag && this.gruen], [this.libellen, tag && this.wasser], [this.muecken, warm && nah && this.wasser]]) { q.visible = an; if (an) { const U = q.material.userData?.U || q.userData.U; U.uZeit.value = t % 3000; U.uMitte.value.set(lok.x, hH, lok.z); } }
+    const mo = this.motten; mo.visible = nacht > 0.45 && warm && lok.y - hH < 60; if (!mo.visible) return; if ((this.tL -= dt) < 0) { this.tL = 1; const L = []; for (const q of this.lampen) { const d = Math.hypot(q[0] - lok.x, q[1] - lok.z); if (d < 46) L.push(q); if (L.length > 14) break; } this.nahL = L; }
+    const M = new THREE.Matrix4(), P = new THREE.Vector3(), Q = new THREE.Quaternion(), E = new THREE.Euler(), S = new THREE.Vector3(1, 1, 1); let i = 0; if (this.nahL.length) for (const m of this.mD) { const q = this.nahL[i % this.nahL.length], a = m.a + t * m.v, b = this.ort.H(q[0], q[1]); P.set(q[0] + Math.cos(a) * m.r, b + m.y + Math.sin(t * 3 + m.ph) * 0.2, q[1] + Math.sin(a) * m.r); E.set(Math.sin(t * 30 + m.ph) * 0.9, a, 0); Q.setFromEuler(E); M.compose(P, Q, S); mo.setMatrixAt(i, M); i++; if (i >= mo.instanceMatrix.count) break; } mo.count = i; mo.instanceMatrix.needsUpdate = true;
+  }
+  entsorgen() { for (const o of this.gruppe.children) { o.geometry?.dispose(); o.material?.dispose(); } this.gruppe.removeFromParent(); }
+}

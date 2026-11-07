@@ -1,0 +1,16 @@
+{
+  "hinweis": "Erzeugt aus 13_WERBUNG/Werbeflaechen_Register.xlsx (tools/werbung/excel_sync.py). Nicht von Hand ändern.",
+  "flaechen": [
+    {
+      "id": "100",
+      "art": "wahrzeichen",
+      "lat": 52.51627,
+      "lon": 13.37769,
+      "kunde": "Social Bites",
+      "motiv": "assets/werbung/motive/social_bites_tor.webp",
+      "von": "2026-11-06",
+      "bis": null,
+      "link": "https://nadercbz.github.io/social-bites/"
+    }
+  ]
+}
