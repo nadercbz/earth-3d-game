@@ -1,0 +1,4 @@
+// Neuer Stand für Rückkehrer (Wunsch Nr. 71, 07.11.2026). Steht als Erstes im Bündel und läuft, bevor das Spiel irgendetwas lädt.
+// Nach dem Veröffentlichen bleibt der alte Service Worker noch einige Sekunden aktiv und würde so lange Modelle und Daten des alten Stands liefern. Darum leert die Seite den Speicher eines älteren Stands sofort selbst. Der Stempel steht im Aufruf des Bündels (kit/spiel.js?v=...), lokal ohne Bündel passiert nichts. Kartenkacheln bleiben liegen. Prüfung: tools/rueckkehrer_test.mjs
+const v = new URL(import.meta.url).searchParams.get('v');
+if (v && typeof caches !== 'undefined') { try { for (const k of await caches.keys()) if (k.startsWith('erde-dinge-') && k !== 'erde-dinge-' + v) await caches.delete(k); } catch (e) { /* privates Fenster: kein Speicher, nichts zu tun */ } }

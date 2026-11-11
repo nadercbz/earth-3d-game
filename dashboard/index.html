@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#efe7da">
+<link rel="icon" href="data:,">
+<title>EARTH 3D GAME · Projekt Dashboard</title>
+<link rel="stylesheet" href="style.css?v=202611111911">
+<link rel="modulepreload" href="../kit/spiel.js?v=202611111911">
+</head>
+<body>
+<canvas id="c"></canvas>
+<header class="kopf">
+  <div class="marke"><b>EARTH 3D GAME</b><span>Projekt Dashboard · Phase 0 Fundament</span></div>
+  <div class="leistung" id="leistung">…</div>
+</header>
+<nav class="nav">
+  <div class="bereiche" id="bereiche"></div>
+  <div class="eintraege" id="eintraege"></div>
+</nav>
+<aside class="info" id="info"></aside>
+<div class="erdsuche" id="erdsuche"><input id="erdfeld" type="search" placeholder="Ort oder Wahrzeichen suchen (171.654 Orte)" autocomplete="off" aria-label="Ort suchen"><div class="treffer" id="erdtreffer"></div><div class="erdstatus" id="erdstatus"></div></div>
+<footer class="leiste">
+  <label class="zeit"><span id="uhr">15:00</span><input id="tageszeit" type="range" min="5" max="23" step="0.05" value="15" aria-label="Tageszeit"></label>
+  <div class="schalter">
+    <button data-s="schatten" class="an" title="Schatten">Schatten</button>
+    <button data-s="ao" title="Umgebungsverdeckung (Kontaktschatten)">Verdeckung</button>
+    <button data-s="bewegung" class="an" title="Menschen, Autos und Ampeln bewegen sich">Bewegung</button>
+    <button data-s="drehen" title="Kamera dreht langsam">Drehen</button>
+    <button data-s="gitter" title="Drahtgitter">Gitter</button>
+    <button data-s="uhr" title="Uhr läuft: 1 Stunde je Minute">Uhr läuft</button>
+    <button id="wetter" title="Wetter wechseln: Live wie in der echten Welt, Klar, Wolkig, Regen, Nebel, Schnee, Gewitter">Live</button>
+  </div>
+    <span class="umbruch"></span>
+    <div class="flieger"><button id="jetknopf" class="jetknopf" title="Düsenjet über der ganzen Erde fliegen">Düsenjet</button><button id="heliknopf" class="jetknopf" title="Hubschrauber über der ganzen Erde fliegen">Hubschrauber</button><button id="bootknopf" class="jetknopf wasserknopf" title="Speedboot auf dem nächsten Wasser">Speedboot</button><button id="jetskiknopf" class="jetknopf wasserknopf" title="Jetski auf dem nächsten Wasser">Jetski</button><button id="ubootknopf" class="jetknopf wasserknopf" title="U-Boot: tauchen bis zum Grund, überall auf der Erde">U-Boot</button><button id="schwimmknopf" class="jetknopf wasserknopf" title="Schwimmen und tauchen">Schwimmen</button><button id="wasserwahl" class="jetknopf wasserwahl" title="Aufs Wasser">Wasser</button></div>
+    <div id="spielen" class="spielen" title="Spielmodi: frei, zu Fuß, Fahren">
+      <button data-m="frei" class="an">Frei</button><button data-m="fuss">Zu Fuß</button><button data-m="fahren">Fahren</button>
+    </div>
+</footer>
+<div class="laden" id="laden"><div><b>EARTH 3D GAME</b><span id="ladetext">Baukasten wird geladen</span></div></div>
+<div id="echtstatus"></div>
+  <div class="quellen">Ereignisse: USGS, NASA EONET, GDACS, The GDELT Project · Militärbasen und U-Bahn Stationen: Wikidata (CC0) · Flughäfen und Pisten: OurAirports (gemeinfrei) · Flugzeuge: adsb.lol (ODbL) · Züge: Digitraffic Finnland (CC BY 4.0), Entur (NLOD), VBB über transport.rest · Schiffe: Digitraffic Meri (CC BY 4.0) · Hochhäuser der Fernsicht: Wikidata (CC0) · Gebäude Berlin: Geoportal Berlin, 3D-Gebäudemodelle LoD2 (Datenlizenz Deutschland Zero 2.0) · Spuren und Ampeln Berlin: OpenStreetMap (ODbL) · Wahrzeichen Berlin: OpenStreetMap Gebäudeteile (ODbL) · Wetter und Seegang: Open-Meteo.com (CC BY 4.0) · Texturen: Poly Haven (CC0) · Bäume: EZ-Tree (MIT) · Figuren: Higgsfield · Satellitenbild: EOxCloudless 2016 by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016), CC BY 4.0 · Nachtlichter: NASA Black Marble 2016 über GIBS · Erde fern: NASA Blue Marble (gemeinfrei), AWS Terrain Tiles · Orte: GeoNames (CC BY 4.0) · Routen: Project OSRM und FOSSGIS (OSRM) · © OpenFreeMap © OpenMapTiles © OpenStreetMap contributors · three.js r186</div>
+  <div class="quellenkurz">© OpenFreeMap © OpenMapTiles © OpenStreetMap contributors · EOxCloudless 2016 by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016) · Open-Meteo.com · Alle Quellen im Menü</div>
+<div id="auswahl" class="auswahl"></div>
+<div id="flugwahl" class="flugwahl"></div>
+<div id="tierchip" class="tierchip"></div>
+<div id="fotoblitz" class="fotoblitz"></div>
+  <div id="hilfe" class="hilfe"></div>
+  <div id="hud" class="hud"></div>
+  <div id="stick" class="stick"><div class="knauf"></div></div>
+  <div id="knoepfe" class="knoepfe"><button data-t="einsteigen">Ein Aus</button><button data-t="hupe">Hupe</button><button data-t="foto">Foto</button><button data-t="schnell">Rennen</button><button data-t="bremse">Bremse</button><button data-t="ende">Menü</button></div>
+  <script type="module" src="../kit/spiel.js?v=202611111911"></script>
+</body>
+</html>

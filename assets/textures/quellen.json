@@ -1,0 +1,607 @@
+{
+ "putz_hell": {
+  "polyhaven": "white_plaster_02",
+  "url": "https://polyhaven.com/a/white_plaster_02",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 514,
+   "nor": 637,
+   "rough": 288
+  },
+  "meter": [
+   1.0,
+   1.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "sandstein": {
+  "polyhaven": "sandstone_blocks_08",
+  "url": "https://polyhaven.com/a/sandstone_blocks_08",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 237,
+   "nor": 163,
+   "rough": 157
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "beton_glatt": {
+  "polyhaven": "plaster_grey_04",
+  "url": "https://polyhaven.com/a/plaster_grey_04",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 446,
+   "nor": 960,
+   "rough": 361
+  },
+  "meter": [
+   1.5,
+   1.5
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "fassade_platten": {
+  "polyhaven": "concrete_tile_facade",
+  "url": "https://polyhaven.com/a/concrete_tile_facade",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 610,
+   "nor": 914,
+   "rough": 328
+  },
+  "meter": [
+   2.09,
+   2.09
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "ziegel": {
+  "polyhaven": "red_brick_03",
+  "url": "https://polyhaven.com/a/red_brick_03",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 678,
+   "nor": 933,
+   "rough": 279
+  },
+  "meter": [
+   1.0,
+   1.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "asphalt": {
+  "quelle": "Higgsfield Nano Banana 2.1, eigene Erzeugung 09.11.2026 (Wunsch Nr. 90), Normalen und Rauheit mit tools/texturen_bauen.py",
+  "lizenz": "eigen",
+  "meter": [
+   4.0,
+   4.0
+  ],
+  "vorher": "asphalt_02"
+ },
+ "gehweg_platten": {
+  "quelle": "Higgsfield Nano Banana 2.1, eigene Erzeugung 09.11.2026 (Wunsch Nr. 90), Normalen und Rauheit mit tools/texturen_bauen.py",
+  "lizenz": "eigen",
+  "meter": [
+   3.2,
+   3.2
+  ],
+  "vorher": "square_concrete_pavers"
+ },
+ "granit": {
+  "quelle": "Higgsfield Nano Banana 2.1, eigene Erzeugung 09.11.2026 (Wunsch Nr. 90), Normalen und Rauheit mit tools/texturen_bauen.py",
+  "lizenz": "eigen",
+  "meter": [
+   1.5,
+   1.5
+  ],
+  "vorher": "granite_tile"
+ },
+ "dach_kies": {
+  "polyhaven": "gravel_embedded_concrete",
+  "url": "https://polyhaven.com/a/gravel_embedded_concrete",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 1110,
+   "nor": 1436,
+   "rough": 535
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "kopfstein": {
+  "quelle": "Higgsfield Nano Banana 2.1, eigene Erzeugung 09.11.2026 (Wunsch Nr. 90), Normalen und Rauheit mit tools/texturen_bauen.py",
+  "lizenz": "eigen",
+  "meter": [
+   2.8,
+   2.8
+  ],
+  "vorher": "cobblestone_floor_08"
+ },
+ "rasen": {
+  "quelle": "Higgsfield Nano Banana 2.1, eigene Erzeugung 09.11.2026 (Wunsch Nr. 90), Normalen und Rauheit mit tools/texturen_bauen.py",
+  "lizenz": "eigen",
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "vorher": "leafy_grass"
+ },
+ "rasen_duenn": {
+  "polyhaven": "sparse_grass",
+  "url": "https://polyhaven.com/a/sparse_grass",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 95,
+   "nor": 175,
+   "rough": 7
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Amal Kumar"
+  ]
+ },
+ "erde_park": {
+  "polyhaven": "park_dirt",
+  "url": "https://polyhaven.com/a/park_dirt",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 157,
+   "nor": 86,
+   "rough": 57
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Christopher Melani"
+  ]
+ },
+ "sand_fein": {
+  "polyhaven": "coast_sand_01",
+  "url": "https://polyhaven.com/a/coast_sand_01",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 125,
+   "nor": 102,
+   "rough": 2
+  },
+  "meter": [
+   15.0,
+   15.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "kies": {
+  "polyhaven": "gravel_floor",
+  "url": "https://polyhaven.com/a/gravel_floor",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 227,
+   "nor": 209,
+   "rough": 43
+  },
+  "meter": [
+   2.25,
+   2.25
+  ],
+  "autoren": [
+   "Jenelle van Heerden",
+   "Matterfield"
+  ]
+ },
+ "pflaster_gross": {
+  "polyhaven": "pavement_02",
+  "url": "https://polyhaven.com/a/pavement_02",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 181,
+   "nor": 12,
+   "rough": 6
+  },
+  "meter": [
+   2.12,
+   2.12
+  ],
+  "autoren": [
+   "Dario Barresi",
+   "Charlotte Baglioni"
+  ]
+ },
+ "pflaster_fisch": {
+  "polyhaven": "herringbone_pavement",
+  "url": "https://polyhaven.com/a/herringbone_pavement",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 86,
+   "nor": 48,
+   "rough": 3
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "pflaster_rechteck": {
+  "polyhaven": "rectangular_paving",
+  "url": "https://polyhaven.com/a/rectangular_paving",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 22,
+   "nor": 7,
+   "rough": 4
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Dimitrios Savva"
+  ]
+ },
+ "beton_platz": {
+  "polyhaven": "concrete_pavement",
+  "url": "https://polyhaven.com/a/concrete_pavement",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 100,
+   "nor": 96,
+   "rough": 2
+  },
+  "meter": [
+   1.8,
+   1.8
+  ],
+  "autoren": [
+   "Charlotte Baglioni"
+  ]
+ },
+ "ziegel_rot": {
+  "polyhaven": "red_brick_03",
+  "url": "https://polyhaven.com/a/red_brick_03",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 131,
+   "nor": 67,
+   "rough": 17
+  },
+  "meter": [
+   1.0,
+   1.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "ziegel_hell": {
+  "polyhaven": "brick_wall_001",
+  "url": "https://polyhaven.com/a/brick_wall_001",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 87,
+   "nor": 81,
+   "rough": 14
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Rob Tuytel",
+   "Dimitrios Savva"
+  ]
+ },
+ "ziegel_alt": {
+  "polyhaven": "factory_brick",
+  "url": "https://polyhaven.com/a/factory_brick",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 126,
+   "nor": 71,
+   "rough": 107
+  },
+  "meter": [
+   1.5,
+   1.5
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "putz_beige": {
+  "polyhaven": "beige_wall_001",
+  "url": "https://polyhaven.com/a/beige_wall_001",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 1,
+   "nor": 4,
+   "rough": 9
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Dimitrios Savva",
+   "Rico Cilliers"
+  ]
+ },
+ "putz_gemalt": {
+  "polyhaven": "painted_plaster_wall",
+  "url": "https://polyhaven.com/a/painted_plaster_wall",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 36,
+   "nor": 21,
+   "rough": 1
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Amal Kumar"
+  ]
+ },
+ "putz_rau": {
+  "polyhaven": "plastered_wall",
+  "url": "https://polyhaven.com/a/plastered_wall",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 34,
+   "nor": 70,
+   "rough": 1
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Amal Kumar"
+  ]
+ },
+ "stuck_weiss": {
+  "polyhaven": "white_stucco",
+  "url": "https://polyhaven.com/a/white_stucco",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 12,
+   "nor": 27,
+   "rough": 1
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Amal Kumar"
+  ]
+ },
+ "beton_wand": {
+  "polyhaven": "concrete_wall_008",
+  "url": "https://polyhaven.com/a/concrete_wall_008",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 30,
+   "nor": 3,
+   "rough": 1
+  },
+  "meter": [
+   2.71,
+   2.71
+  ],
+  "autoren": [
+   "Dario Barresi",
+   "Charlotte Baglioni"
+  ]
+ },
+ "beton_platte": {
+  "polyhaven": "concrete_slab_wall",
+  "url": "https://polyhaven.com/a/concrete_slab_wall",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 22,
+   "nor": 13,
+   "rough": 2
+  },
+  "meter": [
+   2.3,
+   2.3
+  ],
+  "autoren": [
+   "Dimitrios Savva"
+  ]
+ },
+ "wellblech": {
+  "polyhaven": "corrugated_iron_02",
+  "url": "https://polyhaven.com/a/corrugated_iron_02",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 15,
+   "nor": 8,
+   "rough": 55
+  },
+  "meter": [
+   2.7,
+   2.7
+  ],
+  "autoren": [
+   "Jenelle van Heerden",
+   "Sergej Majboroda"
+  ]
+ },
+ "holz_wand": {
+  "polyhaven": "weathered_plank_siding",
+  "url": "https://polyhaven.com/a/weathered_plank_siding",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 27,
+   "nor": 18,
+   "rough": 5
+  },
+  "meter": [
+   1.57,
+   1.57
+  ],
+  "autoren": [
+   "Dimitrios Savva"
+  ]
+ },
+ "stein_block": {
+  "polyhaven": "stone_block_wall",
+  "url": "https://polyhaven.com/a/stone_block_wall",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 22,
+   "nor": 128,
+   "rough": 3
+  },
+  "meter": [
+   2.1,
+   2.1
+  ],
+  "autoren": [
+   "Amal Kumar"
+  ]
+ },
+ "stein_gelb": {
+  "polyhaven": "yellow_stone_wall",
+  "url": "https://polyhaven.com/a/yellow_stone_wall",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 97,
+   "nor": 105,
+   "rough": 10
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Sơn Nguyễn"
+  ]
+ },
+ "dach_ziegel": {
+  "polyhaven": "roof_07",
+  "url": "https://polyhaven.com/a/roof_07",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 114,
+   "nor": 30,
+   "rough": 108
+  },
+  "meter": [
+   2.0,
+   2.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "dach_keramik": {
+  "polyhaven": "ceramic_roof_01",
+  "url": "https://polyhaven.com/a/ceramic_roof_01",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 91,
+   "nor": 58,
+   "rough": 31
+  },
+  "meter": [
+   3.5,
+   3.5
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "dach_schiefer": {
+  "polyhaven": "roof_slates_02",
+  "url": "https://polyhaven.com/a/roof_slates_02",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 99,
+   "nor": 84,
+   "rough": 34
+  },
+  "meter": [
+   3.0,
+   3.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "dach_grau": {
+  "polyhaven": "grey_roof_01",
+  "url": "https://polyhaven.com/a/grey_roof_01",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 78,
+   "nor": 68,
+   "rough": 68
+  },
+  "meter": [
+   8.0,
+   8.0
+  ],
+  "autoren": [
+   "Rob Tuytel"
+  ]
+ },
+ "dach_reet": {
+  "polyhaven": "thatch_roof_angled",
+  "url": "https://polyhaven.com/a/thatch_roof_angled",
+  "lizenz": "CC0",
+  "kb": {
+   "diff": 94,
+   "nor": 141,
+   "rough": 36
+  },
+  "meter": [
+   0.54,
+   0.54
+  ],
+  "autoren": [
+   "Rob Tuytel",
+   "Dimitrios Savva"
+  ]
+ },
+ "pflaster_mosaik": {
+  "quelle": "Higgsfield Nano Banana 2.1, eigene Erzeugung 09.11.2026 (Wunsch Nr. 90), Normalen und Rauheit mit tools/texturen_bauen.py",
+  "lizenz": "eigen",
+  "meter": [
+   1.6,
+   1.6
+  ],
+  "vorher": null
+ }
+}
