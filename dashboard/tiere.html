@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#efe9da">
+<link rel="icon" href="data:,">
+<title>Tiere der Erde</title>
+<meta name="description" content="Feldbuch zum Spiel EARTH: welche Tiere wo auf der Erde leben, mit Steckbrief und Direktflug an ihren echten Lebensraum.">
+<style>
+@font-face { font-family: BS; src: url(../assets/werbung/fonts/bigshoulders.woff2) format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: SG; src: url(../assets/werbung/fonts/schibsted-grotesk.woff2) format('woff2'); font-weight: 400 900; font-display: swap; }
+:root { color-scheme: light; --papier: #efe9da; --papier2: #e5ddc9; --karte: #f8f4ea; --tinte: #1c2b22; --tinte2: #5a6558; --linie: rgba(28, 43, 34, .16); --akzent: #b4481e; --rand: clamp(16px, 3.6vw, 52px);
+  --saeuger: #b4481e; --haustier: #a57a1c; --vogel: #2f6f8f; --reptil: #4d7a35; --meer: #16658a; --insekt: #7c4a8c; }
+* { box-sizing: border-box; margin: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { background: var(--papier); color: var(--tinte); font: 16px/1.5 SG, -apple-system, "Helvetica Neue", Arial, sans-serif; overflow-x: hidden; }
+a { color: inherit; } button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--akzent); outline-offset: 2px; }
+.oben { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px var(--rand); max-width: 1500px; margin: auto; font-weight: 600; font-size: 14px; }
+.oben a { text-decoration: none; padding: 8px 2px; } .oben a:hover { color: var(--akzent); } .oben b { font: 800 22px/1 BS, sans-serif; letter-spacing: .05em; } .oben nav { display: flex; gap: 16px; }
+.kopf { max-width: 1500px; margin: auto; padding: clamp(18px, 4vw, 48px) var(--rand) 8px; }
+.dach { font-weight: 700; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--akzent); }
+h1 { font: 900 clamp(64px, 15vw, 214px)/.86 BS, Impact, sans-serif; text-transform: uppercase; letter-spacing: -.005em; margin: 8px 0 14px; }
+.unter { max-width: 58ch; font-size: clamp(16px, 1.6vw, 20px); color: var(--tinte2); }
+.zahlen { display: flex; flex-wrap: wrap; gap: 8px 34px; margin-top: 18px; border-top: 1px solid var(--linie); padding-top: 12px; font-size: 14px; color: var(--tinte2); } .zahlen b { display: block; font: 800 clamp(30px, 3.6vw, 46px)/1 BS, sans-serif; color: var(--tinte); font-variant-numeric: tabular-nums; }
+.karte { max-width: 1500px; margin: 18px auto 0; padding: 0 var(--rand); position: relative; } .karte canvas { display: block; width: 100%; height: auto; cursor: crosshair; touch-action: manipulation; background: var(--karte); border: 1px solid var(--linie); border-radius: 4px; }
+#kname { position: absolute; pointer-events: none; background: var(--tinte); color: var(--karte); font-weight: 700; font-size: 13px; padding: 3px 9px; border-radius: 3px; white-space: nowrap; opacity: 0; transform: translate(-50%, -150%); transition: opacity .12s; }
+.leg { display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 10px 0 0; font-size: 13px; color: var(--tinte2); } .leg i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+.filter { position: sticky; top: 0; z-index: 5; background: rgba(239, 233, 218, .94); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--linie); margin-top: 22px; }
+.filter > div { max-width: 1500px; margin: auto; padding: 10px var(--rand); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+#such { flex: 1 1 260px; min-width: 0; height: 46px; padding: 0 14px; background: var(--karte); border: 1px solid var(--linie); border-radius: 4px; font-size: 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; } .chips button { border: 1px solid var(--linie); background: transparent; border-radius: 999px; padding: 0 12px; min-height: 36px; font-weight: 600; font-size: 13.5px; cursor: pointer; } .chips button[aria-pressed=true] { background: var(--tinte); color: var(--karte); border-color: var(--tinte); }
+#treffer { font-size: 13px; color: var(--tinte2); white-space: nowrap; }
+.gitter { max-width: 1500px; margin: auto; padding: 16px var(--rand) 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 232px), 1fr)); gap: 10px; }
+.tier { all: unset; box-sizing: border-box; cursor: pointer; display: flex; flex-direction: column; background: var(--karte); border: 1px solid var(--linie); border-radius: 4px; overflow: hidden; min-height: 196px; transition: transform .14s, box-shadow .14s; } .tier:hover, .tier:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(28, 43, 34, .16); } .tier:focus-visible { outline: 2px solid var(--akzent); }
+.tier .band { position: relative; aspect-ratio: 16 / 7; background: var(--c); color: #fff; overflow: hidden; display: flex; align-items: flex-end; padding: 7px 10px; } .tier .band img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; } .tier .band span { position: relative; font: 800 12px/1 SG, sans-serif; letter-spacing: .08em; text-transform: uppercase; text-shadow: 0 1px 3px rgba(0, 0, 0, .35); }
+.tier .band em { position: absolute; right: 4px; top: -18px; font: 900 96px/1 BS, sans-serif; font-style: normal; opacity: .2; }
+.tier .text { padding: 10px 11px 12px; } .tier h3 { font: 800 clamp(23px, 2vw, 27px)/1 BS, sans-serif; letter-spacing: .01em; } .tier .la { font-style: italic; font-size: 12.5px; color: var(--tinte2); margin: 3px 0 7px; } .tier .wo { font-size: 13.5px; line-height: 1.35; }
+.leer { grid-column: 1 / -1; padding: 40px 0; text-align: center; color: var(--tinte2); }
+dialog { border: 0; border-radius: 6px; padding: 0; width: min(620px, calc(100vw - 20px)); max-height: calc(100dvh - 20px); background: var(--karte); color: var(--tinte); box-shadow: 0 24px 80px rgba(0, 0, 0, .4); } dialog::backdrop { background: rgba(20, 28, 22, .55); }
+.dk { padding: 16px 18px; background: var(--c); color: #fff; position: relative; } .dk .dg { font: 700 12px/1 SG, sans-serif; letter-spacing: .1em; text-transform: uppercase; opacity: .9; } .dk h2 { font: 900 clamp(38px, 8vw, 60px)/.95 BS, sans-serif; text-transform: uppercase; margin-top: 6px; } .dk p { font-style: italic; opacity: .92; } .zu { all: unset; position: absolute; right: 8px; top: 8px; width: 44px; height: 44px; text-align: center; line-height: 44px; font-size: 24px; cursor: pointer; border-radius: 50%; } .zu:hover, .zu:focus-visible { background: rgba(255, 255, 255, .2); }
+.db { padding: 14px 18px 18px; } .db img { display: block; width: 100%; border-radius: 4px; margin-bottom: 12px; } .fakt { font-size: 17px; line-height: 1.45; margin-bottom: 12px; }
+.db table { width: 100%; border-collapse: collapse; font-size: 14.5px; } .db td { padding: 7px 0; border-top: 1px solid var(--linie); vertical-align: top; } .db td:first-child { width: 36%; color: var(--tinte2); padding-right: 10px; }
+.los { display: flex; align-items: center; justify-content: center; text-align: center; gap: 8px; margin-top: 14px; min-height: 48px; padding: 10px 16px; background: var(--tinte); color: var(--karte); border-radius: 4px; text-decoration: none; font-weight: 700; } .los:hover { background: var(--akzent); }
+footer { max-width: 1500px; margin: auto; padding: 8px var(--rand) 40px; font-size: 13px; color: var(--tinte2); } footer p { max-width: 80ch; margin-top: 6px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .tier { transition: none; } .tier:hover { transform: none; } }
+</style>
+</head>
+<body>
+<header class="oben"><a href="./"><b>EARTH</b></a><nav><a href="./">Zum Spiel</a><a href="register.html">Werbeflächen</a></nav></header>
+<section class="kopf">
+  <p class="dach">Das Feldbuch zum Spiel</p>
+  <h1>Tiere der Erde</h1>
+  <p class="unter">Jede Art lebt im Spiel dort, wo sie auch in Wirklichkeit lebt. Such dir ein Tier, lern es kennen und flieg direkt in seinen Lebensraum. Im Spiel kannst du es anklicken und fotografieren.</p>
+  <div class="zahlen" id="zahlen"></div>
+</section>
+<section class="karte" aria-label="Weltkarte der Arten"><canvas id="welt" width="1800" height="690"></canvas><div id="kname"></div><div class="leg" id="leg"></div></section>
+<div class="filter"><div><input id="such" type="search" placeholder="Tier, Land oder Lebensraum, zum Beispiel Löwe, Afrika, Regenwald" aria-label="Suche" autocomplete="off"><div class="chips" id="chips"></div><span id="treffer" aria-live="polite"></span></div></div>
+<main class="gitter" id="liste"></main>
+<dialog id="steckbrief" aria-label="Steckbrief"></dialog>
+<footer><p id="hinweis"></p><p>Landkarte: Natural Earth (gemeinfrei). Lebensräume im Spiel: Satellitenbilder EOxCloudless 2016 by EOX IT Services GmbH (CC BY 4.0), © OpenFreeMap © OpenMapTiles © OpenStreetMap contributors.</p></footer>
+<script type="module" src="tiere.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+// Was für ein Gerät? (06.11.2026, Wunsch Nr. 66 und 67) MOBIL heißt: Handy oder Tablet, also Touch als Hauptbedienung. Vorher zählte auch jedes Rechnerfenster unter 820 px und jeder Rechner mit Touchscreen als Handy: nur 4 von 7 Fahrzeugen, weniger Grafik, kleinerer Ort. Das Layout richtet sich weiter nach der Breite (dashboard/style.css).
+export const MOBIL = typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse) and (hover: none)').matches;

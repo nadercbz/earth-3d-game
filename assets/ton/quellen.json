@@ -1,0 +1,1052 @@
+{
+ "stand": "19.11.2026",
+ "hinweis": "Alle Aufnahmen sind frei: CC0, gemeinfrei (PD-self) oder CC BY. Bei CC BY ist die Namensnennung Pflicht, siehe namensnennung. Von Freesound stammt die frei abrufbare Vorschau (MP3). Gebaut mit tools/ton_bauen.py.",
+ "namensnennung": [
+  "Urban park loop (Görlitzer Park, Berlin Kreuzberg), qubodup, CC BY 3.0",
+  "WWS Policecarsiren (Martinshorn, Polizei Essen, um 2010), Work With Sounds / Konrad Gutkowski, CC BY 4.0"
+ ],
+ "dateien": [
+  {
+   "datei": "stadt_dicht.mp3",
+   "quellen": [
+    {
+     "titel": "First day of urban spring in Berlin, 2013-04-14 (S Bahnhof Greifswalder Straße)",
+     "urheber": "qubodup",
+     "seite": "https://commons.wikimedia.org/wiki/File:184809_qubodup_first-day-of-urban-spring-in-berlin-2013-04-14.flac",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/184809_qubodup_first-day-of-urban-spring-in-berlin-2013-04-14.flac/184809_qubodup_first-day-of-urban-spring-in-berlin-2013-04-14.flac.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 72.5 s, Hochpass 35 Hz, nahtlose Schleife von 26.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "stadt_ruhig.mp3",
+   "quellen": [
+    {
+     "titel": "Little Parisian Street",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/little-parisian-street-s1713.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1713.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 58.5 s, Hochpass 35 Hz, nahtlose Schleife von 26.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "park.mp3",
+   "quellen": [
+    {
+     "titel": "Urban park loop (Görlitzer Park, Berlin Kreuzberg)",
+     "urheber": "qubodup",
+     "seite": "https://commons.wikimedia.org/wiki/File:195996_qubodup_urban-park-loop.flac",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/195996_qubodup_urban-park-loop.flac/195996_qubodup_urban-park-loop.flac.mp3",
+     "lizenz": "CC BY 3.0",
+     "lizenz_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 175 s, Hochpass 110 Hz, nahtlose Schleife von 26.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "voegel.mp3",
+   "quellen": [
+    {
+     "titel": "Birds in the City #2",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/birds-in-the-city-2-s3576.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3576.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 193 s, Hochpass 900 Hz, nahtlose Schleife von 24.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 128 kbit/s"
+  },
+  {
+   "datei": "nacht.mp3",
+   "quellen": [
+    {
+     "titel": "Night after rain",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/night-after-rain-s0621.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0621.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 19.5 s, Hochpass 30 Hz, nahtlose Schleife von 24.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "regen.mp3",
+   "quellen": [
+    {
+     "titel": "Summer Rain on Terrace",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/summer-rain-on-terrace-s1019.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1019.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 118 s, Hochpass 80 Hz, nahtlose Schleife von 20.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "wind.mp3",
+   "quellen": [
+    {
+     "titel": "Strong wind and trees #1",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/strong-wind-and-trees-1-s1450.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1450.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 27 s, Hochpass 60 Hz, nahtlose Schleife von 20.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "laub.mp3",
+   "quellen": [
+    {
+     "titel": "Wind in the Trees",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/forest-wind-in-the-trees-s0904.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0904.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 59.5 s, Hochpass 80 Hz, nahtlose Schleife von 20.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "ufer.mp3",
+   "quellen": [
+    {
+     "titel": "Small waves and beach #1",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/small-waves-and-beach-1-s1446.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1446.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 70 s, Hochpass 60 Hz, nahtlose Schleife von 24.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Stereo, MP3 112 kbit/s"
+  },
+  {
+   "datei": "stimmen.mp3",
+   "quellen": [
+    {
+     "titel": "Pedestrian Place",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/pedestrian-place-s0526.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0526.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 15 s, Hochpass 90 Hz, nahtlose Schleife von 24.000 s mit Kreuzblende 3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 112 kbit/s"
+  },
+  {
+   "datei": "grillen.mp3",
+   "quellen": [
+    {
+     "titel": "Campaign at Night #4",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/campaign-at-night-4-s1880.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1880.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 263 s, Hochpass 1500 Hz, nahtlose Schleife von 12.000 s mit Kreuzblende 2 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "motor_leer.mp3",
+   "quellen": [
+    {
+     "titel": "Small gasoline engine",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/small-gasoline-engine-s0966.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0966.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 12 s, Hochpass 22 Hz, nahtlose Schleife von 2.959 s mit Kreuzblende 0.35 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "diesel_leer.mp3",
+   "quellen": [
+    {
+     "titel": "Truck engine",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/truck-engine-s1145.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1145.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 10 s, Hochpass 22 Hz, nahtlose Schleife von 2.947 s mit Kreuzblende 0.35 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "rollen.mp3",
+   "quellen": [
+    {
+     "titel": "Car on a Road",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-on-a-road-s1286.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1286.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 40 s, Hochpass 40 Hz, nahtlose Schleife von 8.000 s mit Kreuzblende 1.5 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "quietschen.mp3",
+   "quellen": [
+    {
+     "titel": "Screeching Tires #1",
+     "urheber": "Dorian CLAIR (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/screeching-tires-1-s2368.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2368.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.35 s, Hochpass 200 Hz, Pegel eingeebnet, nahtlose Schleife von 1.050 s mit Kreuzblende 0.3 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hupe_halten.mp3",
+   "quellen": [
+    {
+     "titel": "Recent car horn #5",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/recent-car-horn-5-s0850.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0850.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 4.8 s, Hochpass 120 Hz, nahtlose Schleife von 0.898 s mit Kreuzblende 0.12 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "anlasser.mp3",
+   "quellen": [
+    {
+     "titel": "Small gasoline engine",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/small-gasoline-engine-s0966.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0966.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 2.52 s für 2 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "tuer_zu.mp3",
+   "quellen": [
+    {
+     "titel": "Car Door #4",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-door-4-s1526.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1526.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 3.26 s für 0.6 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "tuer_auf.mp3",
+   "quellen": [
+    {
+     "titel": "Car Door #4",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-door-4-s1526.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1526.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.1 s für 0.75 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hupe_1.mp3",
+   "quellen": [
+    {
+     "titel": "Recent car horn #5",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/recent-car-horn-5-s0850.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0850.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.15 s für 0.32 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hupe_2.mp3",
+   "quellen": [
+    {
+     "titel": "Recent Car Horn #2",
+     "urheber": "DenisChardonnet (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/recent-car-horn-2-s0258.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0258.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 1.6 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hupe_3.mp3",
+   "quellen": [
+    {
+     "titel": "Recent Car Horn #7",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/recent-car-horn-7-s0969.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0969.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.2 s für 1.75 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hupe_bus.mp3",
+   "quellen": [
+    {
+     "titel": "Bus horn",
+     "urheber": "Joseph SARDIN & Axeline T. (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/bus-horn-s3594.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3594.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 0.95 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hupe_lkw.mp3",
+   "quellen": [
+    {
+     "titel": "Truck Horn",
+     "urheber": "Pierre SIBANARCO (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/truck-horn-s2721.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2721.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 0.9 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "bremse.mp3",
+   "quellen": [
+    {
+     "titel": "Tire squeal",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/tire-squeal-s0500.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0500.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 5.48 s für 0.8 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "motor_mitte.mp3",
+   "quellen": [
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 2500 Umdrehungen unter voller Last, Mikrofon Rode NT1a in 9 m vor dem Wagen (19_2500_Distant)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162508/",
+     "url": "https://cdn.freesound.org/previews/162/162508_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 2500 Umdrehungen unter voller Last, Mikrofon Audix D6 30 cm hinter dem Auspuff (19_2500_D6)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162509/",
+     "url": "https://cdn.freesound.org/previews/162/162509_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "zwei Mikrofone derselben Aufnahme zu gleichen Teilen gemischt, Ausschnitt ab 0.3 s, Hochpass 30 Hz, nahtlose Schleife von 2.395 s mit Kreuzblende 0.3 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "motor_hoch.mp3",
+   "quellen": [
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 6500 Umdrehungen unter voller Last, Mikrofon Rode NT1a in 9 m vor dem Wagen (20_6500_Distant)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162511/",
+     "url": "https://cdn.freesound.org/previews/162/162511_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 6500 Umdrehungen unter voller Last, Mikrofon Audix D6 30 cm hinter dem Auspuff (20_6500_D6)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162512/",
+     "url": "https://cdn.freesound.org/previews/162/162512_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "zwei Mikrofone derselben Aufnahme zu gleichen Teilen gemischt, Ausschnitt ab 0.06 s, Hochpass 40 Hz, Tiefpass 5000 Hz, nahtlose Schleife von 1.063 s mit Kreuzblende 0.12 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "motor_mitte_frei.mp3",
+   "quellen": [
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 2500 Umdrehungen ohne Last, Mikrofon Rode NT1a in 9 m vor dem Wagen (21_2500_Distant)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162517/",
+     "url": "https://cdn.freesound.org/previews/162/162517_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 2500 Umdrehungen ohne Last, Mikrofon Audix D6 30 cm hinter dem Auspuff (21_2500_D6)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162518/",
+     "url": "https://cdn.freesound.org/previews/162/162518_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "zwei Mikrofone derselben Aufnahme zu gleichen Teilen gemischt, Ausschnitt ab 0.3 s, Hochpass 30 Hz, nahtlose Schleife von 2.421 s mit Kreuzblende 0.3 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "motor_hoch_frei.mp3",
+   "quellen": [
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 6500 Umdrehungen ohne Last, Mikrofon Rode NT1a in 9 m vor dem Wagen (21_6500_Distant)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162520/",
+     "url": "https://cdn.freesound.org/previews/162/162520_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "titel": "The Dyno Sessions: 190E, Mercedes-Benz 190E 16V auf dem Rollenprüfstand, rund 6500 Umdrehungen ohne Last, Mikrofon Audix D6 30 cm hinter dem Auspuff (21_6500_D6)",
+     "urheber": "Chippy569 (Freesound)",
+     "seite": "https://freesound.org/people/Chippy569/sounds/162521/",
+     "url": "https://cdn.freesound.org/previews/162/162521_1277206-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "zwei Mikrofone derselben Aufnahme zu gleichen Teilen gemischt, Ausschnitt ab 0.06 s, Hochpass 40 Hz, Tiefpass 5000 Hz, nahtlose Schleife von 1.278 s mit Kreuzblende 0.12 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "crash_1.mp3",
+   "quellen": [
+    {
+     "titel": "Car hood (Closing)",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-hood-closing-s0119.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0119.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "titel": "S36-07 Car crash sweetener; sideswiping fender (historische Filmtonaufnahme, 35 mm Magnetfilm)",
+     "urheber": "craigsmith (Freesound)",
+     "seite": "https://freesound.org/people/craigsmith/sounds/675470/",
+     "url": "https://cdn.freesound.org/previews/675/675470_2524442-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Mischung aus Car hood (Closing) (ab 0.02 s für 0.36 s, +4 dB) und S36-07 Car crash sweetener; sideswiping fender (ab 0 s für 0.62 s, -4 dB), Hochpass 30 Hz, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "crash_2.mp3",
+   "quellen": [
+    {
+     "titel": "Car Crash (with Glass) (Seitenbleche eines Rechnergehäuses, zerschlagenes Glas)",
+     "urheber": "magnuswaker (Freesound)",
+     "seite": "https://freesound.org/people/magnuswaker/sounds/592388/",
+     "url": "https://cdn.freesound.org/previews/592/592388_11537497-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 1.5 s, Hochpass 30 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "crash_3.mp3",
+   "quellen": [
+    {
+     "titel": "Car Crash (Kiste mit Splitt und Glasscherben, Schlag auf einen Blechschrank)",
+     "urheber": "squareal (Freesound)",
+     "seite": "https://freesound.org/people/squareal/sounds/237375/",
+     "url": "https://cdn.freesound.org/previews/237/237375_1502374-hq.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.385 s für 3.25 s, Hochpass 30 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schlag.mp3",
+   "quellen": [
+    {
+     "titel": "Car hood (Closing)",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-hood-closing-s0119.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0119.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.02 s für 0.36 s, Hochpass 30 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "v_pkw.mp3",
+   "quellen": [
+    {
+     "titel": "Car Passing 50km/h #12",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-passing-50km-h-12-s2996.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2996.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "titel": "Car passing 50km/h #3",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/car-passing-50km-h-3-s2987.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2987.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 6.4 s, ab 5.4 s, Hochpass 50 Hz, Pegel eingeebnet, nahtlose Schleife von 3.000 s mit Kreuzblende 0.4 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "v_lkw.mp3",
+   "quellen": [
+    {
+     "titel": "Truck, passage 50km/h #1",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/truck-passage-50km-h-1-s2999.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2999.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 15.6 s, Hochpass 35 Hz, Pegel eingeebnet, nahtlose Schleife von 2.100 s mit Kreuzblende 0.5 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "v_bus.mp3",
+   "quellen": [
+    {
+     "titel": "Truck Engine #2",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/truck-engine-2-s1443.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1443.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 15 s, Hochpass 25 Hz, nahtlose Schleife von 3.084 s mit Kreuzblende 0.35 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "v_tram.mp3",
+   "quellen": [
+    {
+     "titel": "Tram Passing #2",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/tram-passing-2-s3541.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3541.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 13 s, Hochpass 40 Hz, Pegel eingeebnet, nahtlose Schleife von 4.000 s mit Kreuzblende 0.6 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "v_rad.mp3",
+   "quellen": [
+    {
+     "titel": "Bike on a road (MTB)",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/bike-on-a-road-mtb-s1282.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1282.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 15 s, Hochpass 120 Hz, nahtlose Schleife von 5.000 s mit Kreuzblende 1 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "zug.mp3",
+   "quellen": [
+    {
+     "titel": "Passage of a train #6",
+     "urheber": "Joseph SARDIN & Axeline T. (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/passage-of-a-train-6-s3416.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3416.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 8.8 s, Hochpass 30 Hz, Pegel eingeebnet, nahtlose Schleife von 5.000 s mit Kreuzblende 0.8 s, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "sirene.mp3",
+   "quellen": [
+    {
+     "titel": "WWS Policecarsiren (Martinshorn, Polizei Essen, um 2010)",
+     "urheber": "Work With Sounds / Konrad Gutkowski",
+     "seite": "https://commons.wikimedia.org/wiki/File:WWS_Policecarsiren.ogg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/WWS_Policecarsiren.ogg",
+     "lizenz": "CC BY 4.0",
+     "lizenz_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 2.01 s, Hochpass 150 Hz, nahtlose Schleife von 2.927 s mit Kreuzblende 0.05 s an phasengleicher Naht, 0.1 s periodischer Rand vorn und hinten, Lautheit -23 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schritt_1.mp3",
+   "quellen": [
+    {
+     "titel": "Fast Steps on Concrete",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/fast-steps-on-concrete-s1318.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1318.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 1.9236 s für 0.26 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schritt_2.mp3",
+   "quellen": [
+    {
+     "titel": "Fast Steps on Concrete",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/fast-steps-on-concrete-s1318.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1318.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 4.368 s für 0.26 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schritt_3.mp3",
+   "quellen": [
+    {
+     "titel": "Fast Steps on Concrete",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/fast-steps-on-concrete-s1318.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1318.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 5.0016 s für 0.26 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schritt_4.mp3",
+   "quellen": [
+    {
+     "titel": "Fast Steps on Concrete",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/fast-steps-on-concrete-s1318.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1318.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 9.8256 s für 0.26 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schritt_5.mp3",
+   "quellen": [
+    {
+     "titel": "Fast Steps on Concrete",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/fast-steps-on-concrete-s1318.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1318.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 13.9313 s für 0.26 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schritt_6.mp3",
+   "quellen": [
+    {
+     "titel": "Fast Steps on Concrete",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/fast-steps-on-concrete-s1318.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1318.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 14.505 s für 0.26 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "amsel_1.mp3",
+   "quellen": [
+    {
+     "titel": "Common Blackbird #30",
+     "urheber": "Le tiroir du fond (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/common-blackbird-30-s3503.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3503.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.5 s für 2.3 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "amsel_2.mp3",
+   "quellen": [
+    {
+     "titel": "Common Blackbird #23",
+     "urheber": "Le tiroir du fond (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/common-blackbird-23-s3496.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3496.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.15 s für 2.6 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "amsel_3.mp3",
+   "quellen": [
+    {
+     "titel": "Common Blackbird #13",
+     "urheber": "Le tiroir du fond (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/common-blackbird-13-s3486.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3486.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.25 s für 3.9 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "rotkehlchen.mp3",
+   "quellen": [
+    {
+     "titel": "Robin #4",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/robin-4-s1670.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1670.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.1 s für 2.9 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "spatz_1.mp3",
+   "quellen": [
+    {
+     "titel": "Passer domesticus tschilp call",
+     "urheber": "Joseph Sardin",
+     "seite": "https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Passer_domesticus_tschilp_call.oga",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Joseph_Sardin_-_Passer_domesticus_tschilp_call.oga",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.05 s für 1.6 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "spatz_2.mp3",
+   "quellen": [
+    {
+     "titel": "Passer domesticus tschilp call",
+     "urheber": "Joseph Sardin",
+     "seite": "https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Passer_domesticus_tschilp_call.oga",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Joseph_Sardin_-_Passer_domesticus_tschilp_call.oga",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 2.5 s für 1.2 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "kraehe.mp3",
+   "quellen": [
+    {
+     "titel": "Carrion Crow #3",
+     "urheber": "Le tiroir du fond (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/carrion-crow-3-s3463.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3463.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 2.7 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "moewe_1.mp3",
+   "quellen": [
+    {
+     "titel": "Gulls on the Harbor",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/gulls-on-the-harbor-s2573.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2573.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 15.35 s für 1.7 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "moewe_2.mp3",
+   "quellen": [
+    {
+     "titel": "Gulls on the Harbor",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/gulls-on-the-harbor-s2573.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2573.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 25.15 s für 1.85 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "moewe_3.mp3",
+   "quellen": [
+    {
+     "titel": "Gulls on the Harbor",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/gulls-on-the-harbor-s2573.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2573.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 21.3 s für 1.75 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "donner_1.mp3",
+   "quellen": [
+    {
+     "titel": "Thunder #2",
+     "urheber": "Joseph SARDIN & Axeline T. (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/thunder-2-s3113.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3113.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.9 s für 4.1 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "donner_2.mp3",
+   "quellen": [
+    {
+     "titel": "Thunder #6",
+     "urheber": "Joseph SARDIN & Axeline T. (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/thunder-6-s3179.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3179.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.3 s für 7.5 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "donner_3.mp3",
+   "quellen": [
+    {
+     "titel": "Thunder #1",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/thunder-s2718.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2718.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.4 s für 9 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "zug_horn.mp3",
+   "quellen": [
+    {
+     "titel": "Train horn #1",
+     "urheber": "DenisChardonnet (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/train-horn-s0277.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0277.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 1.8 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "sbahn_tuer.mp3",
+   "quellen": [
+    {
+     "titel": "Türsignal der S-Bahn Berlin",
+     "urheber": "Gerhard Iben",
+     "seite": "https://commons.wikimedia.org/wiki/File:T%C3%BCrsignal_der_S-Bahn_Berlin.wav",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/T%C3%BCrsignal_der_S-Bahn_Berlin.wav",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.4 s für 3.2 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "ampel.mp3",
+   "quellen": [
+    {
+     "titel": "LA2 dont walk (Tonsignal einer Fußgängerampel in Schweden: langsam bei Rot, schnell bei Grün)",
+     "urheber": "LA2",
+     "seite": "https://commons.wikimedia.org/wiki/File:LA2_dont_walk.ogg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/LA2_dont_walk.ogg",
+     "lizenz": "gemeinfrei (PD-self)",
+     "lizenz_url": "https://commons.wikimedia.org/wiki/Template:PD-self"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 4.3961 s für 0.12 s, Hochpass 500 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "ampel_frei.mp3",
+   "quellen": [
+    {
+     "titel": "LA2 dont walk (Tonsignal einer Fußgängerampel in Schweden: langsam bei Rot, schnell bei Grün)",
+     "urheber": "LA2",
+     "seite": "https://commons.wikimedia.org/wiki/File:LA2_dont_walk.ogg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/LA2_dont_walk.ogg",
+     "lizenz": "gemeinfrei (PD-self)",
+     "lizenz_url": "https://commons.wikimedia.org/wiki/Template:PD-self"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 13.9954 s für 1.0202 s, Hochpass 500 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "klingel_1.mp3",
+   "quellen": [
+    {
+     "titel": "Bell Bike #2",
+     "urheber": "DenisChardonnet (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/bell-bike-2-s0275.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0275.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 1.25 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "klingel_2.mp3",
+   "quellen": [
+    {
+     "titel": "Bell Bike #5",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/bell-bike-5-s1102.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/1102.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.1 s für 2.2 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hund_1.mp3",
+   "quellen": [
+    {
+     "titel": "Old dog barking #1",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/old-dog-barking-1-s2352.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2352.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 1.48 s für 0.6 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "hund_2.mp3",
+   "quellen": [
+    {
+     "titel": "Barking dog #3",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/barking-dog-3-s2955.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2955.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.05 s für 1.6 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS (durch die Spitzengrenze leiser), Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "glocke.mp3",
+   "quellen": [
+    {
+     "titel": "Bell 1 O'clock",
+     "urheber": "Joseph SARDIN & Axeline T. (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/bell-1-o-clock-s3446.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/3446.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.05 s für 6.5 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "kuh.mp3",
+   "quellen": [
+    {
+     "titel": "Cow moos #3",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/cow-moos-3-s2383.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2383.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.8 s für 1.95 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "schaf.mp3",
+   "quellen": [
+    {
+     "titel": "Sheep #1",
+     "urheber": "Joseph SARDIN (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/sheep-1-s2343.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/2343.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0.1 s für 0.75 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  },
+  {
+   "datei": "pferd.mp3",
+   "quellen": [
+    {
+     "titel": "Neighing of a Horse #1",
+     "urheber": "DenisChardonnet (BigSoundBank.com)",
+     "seite": "https://bigsoundbank.com/neighing-of-a-horse-1-s0284.html",
+     "url": "https://bigsoundbank.com/UPLOAD/mp3/0284.mp3",
+     "lizenz": "CC0 1.0",
+     "lizenz_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "geaendert": "Ausschnitt ab 0 s für 1.55 s, Hochpass 40 Hz, kurze Ein und Ausblende, lauteste 400 ms auf -16 LUFS, Mono, MP3 96 kbit/s"
+  }
+ ]
+}
