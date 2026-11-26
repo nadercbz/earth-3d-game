@@ -1,0 +1,56 @@
+{
+ "reichstag_west": {
+  "datei": "File:Reichstagsgebäude Westfassade.jpg",
+  "autor": "Ansgar Koreng",
+  "lizenz": "CC BY-SA 3.0 de",
+  "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "seite": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_Westfassade.jpg",
+  "breiteOriginal": 3522,
+  "faktor": 1
+ },
+ "konzerthaus_ost": {
+  "datei": "File:Berlin Konzerthaus BW 1.jpg",
+  "autor": "Berthold Werner",
+  "lizenz": "CC BY-SA 3.0",
+  "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:Berlin_Konzerthaus_BW_1.jpg",
+  "breiteOriginal": 3259,
+  "faktor": 1
+ },
+ "rotes_rathaus_front": {
+  "datei": "File:Berlin-Mitte, het Rotes Rathaus Dm09011264 IMG 5785 2024-09-07 17.56.jpg",
+  "autor": "Michielverbeek",
+  "lizenz": "CC BY 4.0",
+  "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:Berlin-Mitte,_het_Rotes_Rathaus_Dm09011264_IMG_5785_2024-09-07_17.56.jpg",
+  "breiteOriginal": 3720,
+  "faktor": 1
+ },
+ "altes_museum_sued": {
+  "datei": "File:Altes Museum (Berlin) + Lustgarten, 2024 (02).jpg",
+  "autor": "Bahnfrend",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:Altes_Museum_(Berlin)_%2B_Lustgarten,_2024_(02).jpg",
+  "breiteOriginal": 3639,
+  "faktor": 1
+ },
+ "humboldt_forum_west": {
+  "datei": "File:Berliner Schloß (2020).jpeg",
+  "autor": "Ernstol",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:Berliner_Schlo%C3%9F_(2020).jpeg",
+  "breiteOriginal": 4032,
+  "faktor": 1
+ },
+ "staatsoper_west": {
+  "datei": "File:Staatsoper-Berlin-Unter-den-Linden-vom-Bebelplatz-Abenddämmerung-2026.jpg",
+  "autor": "Tuxyso",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:Staatsoper-Berlin-Unter-den-Linden-vom-Bebelplatz-Abendd%C3%A4mmerung-2026.jpg",
+  "breiteOriginal": 7312,
+  "faktor": 1.78515625
+ }
+}

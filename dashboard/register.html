@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#141412">
+<link rel="icon" href="data:,">
+<title>Werbeflächen Register</title>
+<meta name="description" content="Register aller Werbeflächen im Spiel EARTH: Litfaßsäulen, Plakatwände, Banner und Großbildwände in jeder Stadt der Erde, mit Preisstufe und Startpreis.">
+<style>
+@font-face { font-family: BS; src: url(../assets/werbung/fonts/bigshoulders.woff2) format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: SG; src: url(../assets/werbung/fonts/schibsted-grotesk.woff2) format('woff2'); font-weight: 400 900; font-display: swap; }
+:root { --g: #141412; --g2: #1d1d1a; --g3: #2a2a26; --t: #f4f3ee; --t2: #a9aaa3; --l: rgba(244, 243, 238, .15); --o: #F26A21; --k: #232321; --m: #E3EAE0; color-scheme: dark;
+  --s0: #FF6A1F; --s1: #FF9A3D; --s2: #FFCB70; --s3: #E3EAE0; --s4: #8FB7A7; --s5: #4F716A; --rand: clamp(16px, 3.4vw, 44px); }
+* { box-sizing: border-box; margin: 0; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { background: var(--g); color: var(--t); font: 16px/1.5 SG, -apple-system, "Helvetica Neue", Arial, sans-serif; overflow-x: hidden; }
+a { color: inherit; } button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--o); outline-offset: 2px; }
+code { font: 600 12.5px/1.3 ui-monospace, Menlo, Consolas, monospace; word-break: break-all; }
+h2 { font: 800 clamp(34px, 5vw, 64px)/.92 BS, Impact, sans-serif; text-transform: uppercase; letter-spacing: .004em; margin-bottom: 12px; }
+.sek { padding: clamp(40px, 6vw, 84px) var(--rand) 0; max-width: 1560px; margin: auto; } .fein { color: var(--t2); font-size: 14px; max-width: 70ch; }
+/* Kopf: das Plakat, wie es im Spiel hängt */
+.oben { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px var(--rand); max-width: 1560px; margin: auto; font-weight: 600; font-size: 14px; }
+.oben a { text-decoration: none; padding: 8px 2px; } .oben a:hover { color: var(--o); } .oben b { font: 800 22px/1 BS, sans-serif; letter-spacing: .05em; }
+.tafel { margin: 0 var(--rand); max-width: 1560px; position: relative; } @media (min-width: 1650px) { .tafel { margin-inline: auto; } }
+.plakat { position: relative; overflow: hidden; background: var(--o); color: var(--k); padding: clamp(18px, 3.2vw, 44px); min-height: clamp(300px, min(44vw, 62vh), 600px); display: flex; flex-direction: column; justify-content: space-between; border: clamp(6px, .9vw, 12px) solid #2c2f33; box-shadow: 0 30px 60px -30px #000; }
+.plakat::after { content: ""; position: absolute; right: -14%; bottom: -46%; width: 62%; aspect-ratio: 1; border-radius: 50%; background: rgba(35, 35, 33, .13); pointer-events: none; }
+.tag { align-self: flex-start; background: var(--k); color: #fefefe; font-weight: 800; letter-spacing: .03em; padding: .32em .7em; border-radius: 4px; font-size: clamp(13px, 1.5vw, 19px); }
+.plakat h1 { font: 900 clamp(58px, min(14.6vw, 21vh), 232px)/.98 BS, Impact, sans-serif; text-transform: uppercase; letter-spacing: -.006em; margin: .12em 0; position: relative; z-index: 1; min-height: 1.96em; }
+.plakat h1[dir=rtl] { text-align: right; }
+.plakat h1 span { display: inline-block; animation: rein .5s cubic-bezier(.2, .9, .25, 1) both; } @keyframes rein { from { opacity: 0; transform: translateY(.14em); } to { opacity: 1; transform: none; } }
+.fuss { display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; font-weight: 600; font-size: clamp(14px, 1.5vw, 20px); position: relative; z-index: 1; } .fuss b { font: 800 1.3em/1 BS, sans-serif; letter-spacing: .05em; }
+.pfosten { display: flex; justify-content: space-around; height: clamp(26px, 5vw, 62px); } .pfosten i { width: clamp(10px, 1.6vw, 24px); background: linear-gradient(90deg, #2c2f33, #43474b 40%, #1e2023); }
+/* Zahlen */
+.zahlen { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); border-top: 1px solid var(--l); margin-top: 0; }
+.zahlen div { padding: 18px 18px 18px 0; border-bottom: 1px solid var(--l); } .zahlen b { display: block; font: 800 clamp(40px, 5.2vw, 76px)/.95 BS, sans-serif; letter-spacing: .005em; font-variant-numeric: tabular-nums; } .zahlen span { color: var(--t2); font-size: 14px; display: block; max-width: 30ch; }
+/* Karte */
+.karte { position: relative; background: var(--g2); border: 1px solid var(--l); margin-top: 18px; cursor: crosshair; touch-action: manipulation; } .karte canvas { display: block; width: 100%; height: auto; }
+.ring { position: absolute; width: 26px; height: 26px; margin: -13px; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px var(--o), 0 0 24px var(--o); pointer-events: none; display: none; transition: left .3s, top .3s; }
+.ringname { position: absolute; transform: translate(16px, -50%); font-weight: 700; font-size: 14px; background: var(--k); padding: 2px 8px; border-radius: 3px; white-space: nowrap; pointer-events: none; display: none; }
+.leg { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 12px 0; font-size: 14px; color: var(--t2); } .leg i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 7px; vertical-align: -1px; } .leg b { color: var(--t); font-weight: 700; }
+/* Filter */
+.filter { position: sticky; top: 0; z-index: 5; background: rgba(20, 20, 18, .93); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 12px 0; border-bottom: 1px solid var(--l); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.filter input[type=search] { flex: 1 1 240px; min-width: 0; height: 44px; padding: 0 14px; background: var(--g3); border: 1px solid var(--l); border-radius: 4px; }
+.filter select { height: 44px; max-width: 48vw; padding: 0 10px; background: var(--g3); border: 1px solid var(--l); border-radius: 4px; }
+.chips { display: flex; gap: 4px; } .chips button { width: 40px; height: 44px; background: transparent; border: 1px solid var(--l); border-radius: 4px; font: 800 20px/1 BS, sans-serif; cursor: pointer; color: var(--t2); } .chips button.an { color: var(--k); background: var(--c); border-color: var(--c); } .chips button:hover { border-color: var(--t2); }
+.treffer { color: var(--t2); font-size: 14px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+/* Liste und Ansicht */
+.teil { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: clamp(16px, 2.6vw, 36px); margin-top: 18px; align-items: start; }
+.liste { height: min(74vh, 760px); overflow: auto; border: 1px solid var(--l); position: relative; -webkit-overflow-scrolling: touch; background: var(--g2); } .innen { position: relative; }
+.zeile { position: absolute; left: 0; right: 0; height: 56px; display: grid; grid-template-columns: 34px minmax(0, 1fr) 84px 76px; gap: 10px; align-items: center; padding: 0 12px; border: 0; border-bottom: 1px solid var(--l); background: transparent; text-align: left; cursor: pointer; width: 100%; }
+.zeile:hover { background: var(--g3); } .zeile.an { background: var(--t); color: var(--k); } .zeile.an small, .zeile.an .prz { color: #55564f; }
+.st { width: 30px; height: 30px; border-radius: 3px; display: grid; place-items: center; font: 800 21px/1 BS, sans-serif; color: var(--k); background: var(--c); } .zn { min-width: 0; line-height: 1.2; } .zn b { display: block; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .zn small { display: block; color: var(--t2); font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.prz { text-align: right; color: var(--t2); font-size: 13px; font-variant-numeric: tabular-nums; line-height: 1.2; } .prz b { display: block; color: inherit; font-weight: 700; font-size: 14px; }
+.ansicht { position: sticky; top: 84px; border: 1px solid var(--l); background: var(--g2); padding: clamp(14px, 2vw, 24px); min-height: 300px; max-height: calc(100vh - 100px); overflow: auto; }
+.ansicht h3 { font: 800 clamp(40px, 5vw, 72px)/.9 BS, sans-serif; text-transform: uppercase; overflow-wrap: anywhere; } .unter { color: var(--t2); margin: 6px 0 14px; }
+.chip { display: inline-block; padding: 2px 8px; border-radius: 3px; font-weight: 700; font-size: 13px; color: var(--k); background: var(--c, var(--m)); } .chip.frei { --c: var(--o); } .chip.geb { --c: var(--m); }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; font-variant-numeric: tabular-nums; } th { text-align: left; font-weight: 600; color: var(--t2); font-size: 12.5px; padding: 6px 8px 6px 0; border-bottom: 1px solid var(--t2); } td { padding: 8px 8px 8px 0; border-bottom: 1px solid var(--l); vertical-align: top; } .z { text-align: right; white-space: nowrap; padding-right: 0; }
+.knopf { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 16px; border-radius: 4px; border: 1px solid var(--l); background: transparent; text-decoration: none; font-weight: 700; cursor: pointer; text-align: center; } .knopf:hover { border-color: var(--t); } .knopf.haupt { background: var(--o); border-color: var(--o); color: var(--k); } .knopf.haupt:hover { background: #ff7d36; } .knopf[disabled] { opacity: .55; cursor: progress; }
+.knoepfe { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.viertel { margin-top: 16px; } .viertel canvas { display: block; width: 100%; height: auto; background: #101010; border: 1px solid var(--l); cursor: pointer; touch-action: manipulation; }
+.vleg { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--t2); margin: 8px 0; } .vleg i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; }
+.vliste { max-height: 340px; overflow: auto; margin-top: 8px; } .vliste tr { cursor: pointer; } .vliste tr:hover td { background: var(--g3); } .vliste tr.an td { background: var(--o); color: var(--k); }
+.gewaehlt { border: 1px solid var(--o); padding: 12px; margin: 12px 0; } .gewaehlt h4 { font: 800 28px/1 BS, sans-serif; text-transform: uppercase; }
+/* Premium */
+.karten { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 268px), 1fr)); gap: 1px; background: var(--l); border: 1px solid var(--l); margin-top: 18px; }
+.prem { background: var(--g); padding: 16px; display: flex; flex-direction: column; gap: 6px; min-height: 176px; } .prem h4 { font: 800 30px/.95 BS, sans-serif; text-transform: uppercase; overflow-wrap: anywhere; } .prem .ort { color: var(--t2); font-size: 14px; } .prem .kopfz { display: flex; gap: 6px; flex-wrap: wrap; } .prem .preis { margin-top: auto; font-weight: 700; } .prem a { font-size: 14px; } .prem img { width: 100%; height: auto; display: block; border-radius: 2px; }
+.prem.gr { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; background: var(--g2); } @media (min-width: 900px) { .prem.gr h4 { font-size: 46px; } }
+/* Preise */
+.schritte { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 18px; margin: 18px 0; } .schritte div { border-top: 3px solid var(--o); padding-top: 10px; } .schritte b { display: block; font: 800 30px/1 BS, sans-serif; text-transform: uppercase; margin-bottom: 4px; } .schritte p { color: var(--t2); font-size: 15px; }
+.breit { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--l); } .breit table { min-width: 720px; } .breit th, .breit td { padding: 10px 12px; } .breit td small { display: block; color: var(--t2); font-size: 12px; } .breit th { background: var(--g2); position: sticky; top: 0; }
+.schluss { margin: clamp(46px, 7vw, 96px) auto 0; padding: clamp(24px, 4vw, 54px) var(--rand); background: var(--o); color: var(--k); } .schluss h2 { font-size: clamp(44px, 8vw, 118px); } .schluss .knopf { background: var(--k); color: #fefefe; border-color: var(--k); }
+footer { padding: 26px var(--rand) calc(30px + env(safe-area-inset-bottom)); color: var(--t2); font-size: 13px; max-width: 1560px; margin: auto; } footer p { margin-bottom: 8px; max-width: 110ch; }
+@media (max-width: 900px) { .teil { grid-template-columns: minmax(0, 1fr); } .liste { height: 52vh; } .ansicht { position: static; max-height: none; } .filter { position: static; } .zeile { grid-template-columns: 34px minmax(0, 1fr) 68px 62px; gap: 8px; } }
+@media (prefers-reduced-motion: reduce) { .plakat h1 span { animation: none; } html { scroll-behavior: auto; } .ring { transition: none; } }
+.wform { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; max-width: 880px; } .wform input, .wform select { flex: 1 1 240px; min-width: 0; height: 48px; padding: 0 12px; font: inherit; background: transparent; color: inherit; border: 1px solid currentColor; border-radius: 4px; } .wform select option { color: #111; } .wform button { height: 48px; padding: 0 20px; font: inherit; font-weight: 700; background: #F26A21; color: #232321; border: 0; border-radius: 4px; cursor: pointer; }
+</style>
+</head>
+<body>
+<nav class="oben"><b>EARTH</b><a href="./">Zurück ins Spiel</a></nav>
+<div class="tafel"><div class="plakat"><span class="tag" id="tag">FLÄCHE FREI</span><h1 id="satz"><span>Hier kann deine Werbung hängen.</span></h1><div class="fuss"><span>Register aller Werbeflächen im Spiel EARTH</span><b>EARTH</b></div></div><div class="pfosten"><i></i><i></i></div></div>
+<main>
+<section class="sek" style="padding-top:0"><div class="zahlen" id="zahlen"></div></section>
+<section class="sek" id="welt"><h2>Jede Stadt der Erde</h2><p class="fein">Ein Punkt ist ein Ort. Die Farbe zeigt die Preisstufe. Tippe auf die Karte oder suche unten, dann siehst du, welche Flächen dort hängen und was sie kosten. Auf jeder freien Fläche steht ein Code, den du hier eingeben kannst.</p>
+  <div class="karte" id="karte"><canvas id="weltbild" width="1400" height="640" aria-label="Weltkarte aller Orte nach Preisstufe"></canvas><div class="ring" id="ring"></div><div class="ringname" id="ringname"></div></div><div class="leg" id="leg"></div></section>
+<section class="sek" style="padding-top:12px" id="register"><div class="filter"><input id="such" type="search" placeholder="Stadt, Land oder Code" aria-label="Stadt, Land oder Code suchen" autocomplete="off"><select id="kont" aria-label="Kontinent"></select><select id="land" aria-label="Land"></select><div class="chips" id="chips" role="group" aria-label="Preisstufe"></div><span class="treffer" id="treffer"></span></div>
+  <div class="teil"><div class="liste" id="liste" tabindex="0" aria-label="Orte"><div class="innen" id="innen"></div></div><aside class="ansicht" id="ansicht" aria-live="polite"><p class="fein">Lädt die Orte der Erde.</p></aside></div></section>
+<section class="sek" id="premium"><h2>Premium Flächen</h2><p class="fein">Benannte Lagen, jede ein Einzelstück.</p><div class="karten" id="karten"></div></section>
+<section class="sek" id="preise"><h2>Was eine Fläche kostet</h2><div class="schritte"><div><b>Standort</b><p>Je größer die Stadt und je näher am Zentrum, desto höher die Preisstufe. Sechs Stufen von S bis E.</p></div><div><b>Größe</b><p>Von der Litfaßsäule bis zum Banner am Wahrzeichen. Fassaden und Dächer nach Quadratmetern.</p></div><div><b>Land</b><p>Die Kaufkraft des Landes fließt ein: eine Fläche in Lagos kostet weniger als eine in Zürich.</p></div></div>
+  <div class="filter" style="position:static;border:0"><label for="pland" class="treffer">Preise für</label><select id="pland"></select></div><div class="breit"><table id="ptab"></table></div><p class="fein" style="margin-top:10px">Monatspreise. Groß der Startpreis für die ersten Kunden, klein der spätere Zielpreis ab rund 100.000 Spielern. Entwurf, Änderungen vorbehalten.</p></section>
+</main>
+<section class="sek" id="zusatz"><h2>Busse, Taxis, Stadien</h2><p class="fein">Bewegte Flächen, je Stadt gebucht: dein Motiv fährt durch die ganze Stadt.</p><div class="breit"><table id="ztab"></table></div></section>
+<section class="sek" id="wunsch"><h2>Deine Wunschfläche</h2><p class="fein">Jede echte Adresse der Erde: nenne uns den Ort, wir richten die Fläche dort ein.</p><form id="wform" class="wform"><input id="wadr" type="text" placeholder="Adresse, Gebäude oder Ort" aria-label="Adresse, Gebäude oder Ort" autocomplete="off" required><select id="wart" aria-label="Art der Fläche"></select><button type="submit">Anfrage per E-Mail</button></form></section>
+<section class="schluss"><h2>Dein Platz auf der Erde</h2><p style="max-width:56ch;font-weight:600;margin-bottom:18px">Unternehmen, Künstler, Gastro, jeder kann eine Fläche buchen. Deine Werbung hängt im Spiel und führt per Klick direkt auf deine Website.</p><a class="knopf" href="#">Mail schreiben</a></section>
+<footer><p>Virtuelle Werbeflächen im Spiel EARTH, keine echten Werbeflächen an echten Gebäuden. Die Zahl der Flächen je Stadt ist eine Schätzung aus Einwohnern und Messungen im Spiel, Gebäude und Straßen stammen aus OpenStreetMap.</p><p>Orte: GeoNames (CC BY 4.0). Wirtschaftsdaten: Weltbank (CC BY 4.0). © OpenFreeMap © OpenMapTiles © OpenStreetMap contributors. Gebäudezahl: OpenStreetMap taginfo, Stand 05.11.2026.</p></footer>
+<script type="module" src="register.js"></script>
+</body>
+</html>

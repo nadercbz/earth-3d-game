@@ -1,0 +1,488 @@
+[
+ {
+  "id": "hf_frau_cap_oliv",
+  "name": "Frau mit Cap, olive Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_oliv.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_oliv.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_navy",
+  "name": "Frau mit Cap, Navy Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_navy.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_navy.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_rost",
+  "name": "Frau mit Cap, rostrote Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_rost.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_rost.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_salbei",
+  "name": "Frau mit Cap, Salbei Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_salbei.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_salbei.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_schwarz",
+  "name": "Frau mit Cap, schwarze Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_schwarz.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_schwarz.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_bordeaux",
+  "name": "Frau mit Cap, Bordeaux Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_bordeaux.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_bordeaux.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_senf",
+  "name": "Frau mit Cap, senfgelbe Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_senf.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_senf.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_wald",
+  "name": "Frau mit Cap, waldgrüne Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_wald.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_wald.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_denim",
+  "name": "Frau mit Cap, Jeansjacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_denim.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_denim.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_cap_hellgrau",
+  "name": "Ältere Frau mit Cap, hellgraue Jacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_cap_hellgrau.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.68,
+  "textur": "higgsfield/texturen/hf_frau_cap_hellgrau.webp",
+  "basis": "hf_frau_cap"
+ },
+ {
+  "id": "hf_frau_locken_camel",
+  "name": "Frau mit Locken, Camel Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_camel.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_camel.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_salbei",
+  "name": "Frau mit Locken, Salbei Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_salbei.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_salbei.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_rost",
+  "name": "Frau mit Locken, rostroter Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_rost.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_rost.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_grau",
+  "name": "Frau mit Locken, grauer Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_grau.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_grau.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_schwarz",
+  "name": "Frau mit Locken, schwarzer Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_schwarz.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_schwarz.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_bordeaux",
+  "name": "Frau mit Locken, Bordeaux Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_bordeaux.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_bordeaux.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_senf",
+  "name": "Frau mit Locken, senfgelber Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_senf.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_senf.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_wald",
+  "name": "Frau mit Locken, waldgrüner Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_wald.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_wald.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_hellgrau",
+  "name": "Ältere Frau mit Locken, hellgrauer Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_hellgrau.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_hellgrau.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_frau_locken_terrakotta",
+  "name": "Frau mit Locken, Terrakotta Pullover (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_locken_terrakotta.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.65,
+  "textur": "higgsfield/texturen/hf_frau_locken_terrakotta.webp",
+  "basis": "hf_frau_locken"
+ },
+ {
+  "id": "hf_mann_jacke_oliv",
+  "name": "Mann mit Jacke, oliv (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_oliv.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_oliv.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_navy",
+  "name": "Mann mit Jacke, Navy (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_navy.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_navy.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_rost",
+  "name": "Mann mit Jacke, rostrot (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_rost.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_rost.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_stein",
+  "name": "Mann mit Jacke, steingrau (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_stein.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_stein.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_creme",
+  "name": "Mann mit Jacke, creme (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_creme.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_creme.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_bordeaux",
+  "name": "Mann mit Jacke, Bordeaux (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_bordeaux.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_bordeaux.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_senf",
+  "name": "Mann mit Jacke, senfgelb (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_senf.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_senf.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_wald",
+  "name": "Mann mit Jacke, waldgrün (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_wald.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_wald.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_denim",
+  "name": "Mann mit Jeansjacke (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_denim.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_denim.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_mann_jacke_anthrazit",
+  "name": "Älterer Mann mit Jacke, anthrazit (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_jacke_anthrazit.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.82,
+  "textur": "higgsfield/texturen/hf_mann_jacke_anthrazit.webp",
+  "basis": "hf_mann_jacke"
+ },
+ {
+  "id": "hf_frau_mantel_navy",
+  "name": "Ältere Frau im Navy Mantel (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_mantel_navy.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_mantel",
+  "textur": "higgsfield/texturen/hf_frau_mantel_navy.webp"
+ },
+ {
+  "id": "hf_frau_mantel_oliv",
+  "name": "Ältere Frau im olivgrünen Mantel (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_mantel_oliv.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_mantel",
+  "textur": "higgsfield/texturen/hf_frau_mantel_oliv.webp"
+ },
+ {
+  "id": "hf_frau_mantel_rost",
+  "name": "Ältere Frau im rostroten Mantel (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_mantel_rost.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_mantel",
+  "textur": "higgsfield/texturen/hf_frau_mantel_rost.webp"
+ },
+ {
+  "id": "hf_frau_mantel_anthrazit",
+  "name": "Frau im anthrazit Mantel (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_mantel_anthrazit.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_mantel",
+  "textur": "higgsfield/texturen/hf_frau_mantel_anthrazit.webp"
+ },
+ {
+  "id": "hf_frau_mantel_creme",
+  "name": "Ältere Frau im cremefarbenen Mantel (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_mantel_creme.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_mantel",
+  "textur": "higgsfield/texturen/hf_frau_mantel_creme.webp"
+ },
+ {
+  "id": "hf_frau_mantel_bordeaux",
+  "name": "Ältere Frau im Bordeaux Mantel (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_mantel_bordeaux.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_mantel",
+  "textur": "higgsfield/texturen/hf_frau_mantel_bordeaux.webp"
+ },
+ {
+  "id": "hf_mann_hoodie_oliv",
+  "name": "Junger Mann im olivgrünen Hoodie (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_hoodie_oliv.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.78,
+  "basis": "hf_mann_hoodie",
+  "textur": "higgsfield/texturen/hf_mann_hoodie_oliv.webp"
+ },
+ {
+  "id": "hf_mann_hoodie_sand",
+  "name": "Junger Mann im sandfarbenen Hoodie (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_hoodie_sand.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.78,
+  "basis": "hf_mann_hoodie",
+  "textur": "higgsfield/texturen/hf_mann_hoodie_sand.webp"
+ },
+ {
+  "id": "hf_mann_hoodie_bordeaux",
+  "name": "Junger Mann im Bordeaux Hoodie (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_hoodie_bordeaux.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.78,
+  "basis": "hf_mann_hoodie",
+  "textur": "higgsfield/texturen/hf_mann_hoodie_bordeaux.webp"
+ },
+ {
+  "id": "hf_mann_hoodie_navy",
+  "name": "Junger Mann im Navy Hoodie (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_hoodie_navy.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.78,
+  "basis": "hf_mann_hoodie",
+  "textur": "higgsfield/texturen/hf_mann_hoodie_navy.webp"
+ },
+ {
+  "id": "hf_mann_hoodie_grau",
+  "name": "Junger Mann im grauen Hoodie (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_hoodie_grau.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.78,
+  "basis": "hf_mann_hoodie",
+  "textur": "higgsfield/texturen/hf_mann_hoodie_grau.webp"
+ },
+ {
+  "id": "hf_mann_hoodie_senf",
+  "name": "Junger Mann im senfgelben Hoodie (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_hoodie_senf.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.78,
+  "basis": "hf_mann_hoodie",
+  "textur": "higgsfield/texturen/hf_mann_hoodie_senf.webp"
+ },
+ {
+  "id": "hf_frau_kopftuch_navy",
+  "name": "Frau mit Navy Kopftuch (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_kopftuch_navy.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_kopftuch",
+  "textur": "higgsfield/texturen/hf_frau_kopftuch_navy.webp"
+ },
+ {
+  "id": "hf_frau_kopftuch_bordeaux",
+  "name": "Frau mit Bordeaux Kopftuch (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_kopftuch_bordeaux.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_kopftuch",
+  "textur": "higgsfield/texturen/hf_frau_kopftuch_bordeaux.webp"
+ },
+ {
+  "id": "hf_frau_kopftuch_sand",
+  "name": "Frau mit sandfarbenem Kopftuch (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_kopftuch_sand.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_kopftuch",
+  "textur": "higgsfield/texturen/hf_frau_kopftuch_sand.webp"
+ },
+ {
+  "id": "hf_frau_kopftuch_terrakotta",
+  "name": "Frau mit Terrakotta Kopftuch (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_kopftuch_terrakotta.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_kopftuch",
+  "textur": "higgsfield/texturen/hf_frau_kopftuch_terrakotta.webp"
+ },
+ {
+  "id": "hf_frau_kopftuch_schwarz",
+  "name": "Frau mit schwarzem Kopftuch (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_kopftuch_schwarz.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_kopftuch",
+  "textur": "higgsfield/texturen/hf_frau_kopftuch_schwarz.webp"
+ },
+ {
+  "id": "hf_frau_kopftuch_taubenblau",
+  "name": "Frau mit taubenblauem Kopftuch (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_frau_kopftuch_taubenblau.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.66,
+  "basis": "hf_frau_kopftuch",
+  "textur": "higgsfield/texturen/hf_frau_kopftuch_taubenblau.webp"
+ },
+ {
+  "id": "hf_mann_anzug_anthrazit",
+  "name": "Mann im anthrazit Anzug (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_anzug_anthrazit.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.8,
+  "basis": "hf_mann_anzug",
+  "textur": "higgsfield/texturen/hf_mann_anzug_anthrazit.webp"
+ },
+ {
+  "id": "hf_mann_anzug_grau",
+  "name": "Mann im grauen Anzug (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_anzug_grau.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.8,
+  "basis": "hf_mann_anzug",
+  "textur": "higgsfield/texturen/hf_mann_anzug_grau.webp"
+ },
+ {
+  "id": "hf_mann_anzug_braun",
+  "name": "Mann im braunen Anzug (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_anzug_braun.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.8,
+  "basis": "hf_mann_anzug",
+  "textur": "higgsfield/texturen/hf_mann_anzug_braun.webp"
+ },
+ {
+  "id": "hf_mann_anzug_oliv",
+  "name": "Mann im olivgrünen Anzug (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_anzug_oliv.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.8,
+  "basis": "hf_mann_anzug",
+  "textur": "higgsfield/texturen/hf_mann_anzug_oliv.webp"
+ },
+ {
+  "id": "hf_mann_anzug_sand",
+  "name": "Mann im sandfarbenen Anzug (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_anzug_sand.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.8,
+  "basis": "hf_mann_anzug",
+  "textur": "higgsfield/texturen/hf_mann_anzug_sand.webp"
+ },
+ {
+  "id": "hf_mann_anzug_schwarz",
+  "name": "Älterer Mann im schwarzen Anzug (Higgsfield)",
+  "datei": "higgsfield/varianten/hf_mann_anzug_schwarz.glb",
+  "quelle": "Higgsfield Variante",
+  "hoehe": 1.8,
+  "basis": "hf_mann_anzug",
+  "textur": "higgsfield/texturen/hf_mann_anzug_schwarz.webp"
+ }
+]
